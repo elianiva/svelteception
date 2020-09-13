@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Second</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <nav class="sidenav">
+      <img class="sidenav__banner" src="./assets/banner.png" alt="banner" />
+      <div class="sidenav__container">
+        <div class="sidenav__menu">
+          <span class="sidenav__heading">Arceru</span>
+          <hr class="sidenav__divider" />
+          <ul class="sidenav__items">
+            <li class="sidenav__item active">Dashboard</li>
+            <li class="sidenav__item">Friends</li>
+            <li class="sidenav__item">Economy</li>
+          </ul>
+        </div>
+        <div class="sidenav__menu">
+          <span class="sidenav__heading">Servers</span>
+          <hr class="sidenav__divider" />
+          <ul class="sidenav__items">
+            <li class="sidenav__item">Survival</li>
+            <li class="sidenav__item">Creative</li>
+            <li class="sidenav__item">Skyblock</li>
+          </ul>
+        </div>
+        <div class="sidenav__card">
+          <div class="sidenav__profile">
+            <img src="./assets/pfp.png" alt="profile pict" />
+            <span class="sidenav__username">Hatsuselzuna</span>
+          </div>
+          <div class="sidenav__icons">
+            <button class="sidenav__icon">
+              <img src="./assets/settings.svg" alt="settings" />
+            </button>
+            <button class="sidenav__icon" class="sidenav__icon">
+              <img src="./assets/logout.svg" alt="settings" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main class="dashboard">
+      <section class="dashboard__section">
+        <span class="dashboard__heading">Profile</span>
+        <div class="dashboard__profile">
+          <img src="./assets/character.png" alt="character" />
+          <div class="dashboard__about">
+            <span class="dashboard__username"
+              >Hatsuselzuna
+              <button class="dashboard__edit">
+                <img src="./assets/edit.svg" alt="edit" />
+              </button>
+            </span>
+            <p class="dashboard__desc">
+              Short bio. Lorem, ipsum dolor sit amet consectetur adipisicing
+              elit. Officia expedita fuga nesciunt vitae voluptatem aliquid, eos
+              natus autem tempora molestias.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="dashboard__section">
+        <span class="dashboard__heading">Servers</span>
+        <div class="dashboard__cards">
+          <div class="dashboard__card">
+            <img src="./assets/thumb-1.png" alt="thumb-1" />
+            <div class="dashboard__detail survival">
+              <span class="dashboard__servername">Survival</span>
+              <p class="dashboard__shortdesc">
+                Beat the night, survive the realm.
+              </p>
+            </div>
+          </div>
+          <div class="dashboard__card">
+            <img src="./assets/thumb-2.png" alt="thumb-2" />
+            <div class="dashboard__detail creative">
+              <span class="dashboard__servername">Creative</span>
+              <p class="dashboard__shortdesc">
+                Beat the night, survive the realm.
+              </p>
+            </div>
+          </div>
+          <div class="dashboard__card">
+            <img src="./assets/thumb-3.png" alt="thumb-3" />
+            <div class="dashboard__detail skyblock">
+              <span class="dashboard__servername">Skyblock</span>
+              <p class="dashboard__shortdesc">
+                Beat the night, survive the realm.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="rightnav">
+      <div class="rightnav__container">
+        <button class="rightnav__icon active">
+          <img src="./assets/users.svg" alt="" />
+        </button>
+        <button class="rightnav__icon">
+          <img src="./assets/settings.svg" alt="settings" />
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

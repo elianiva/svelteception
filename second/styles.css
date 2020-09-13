@@ -8,14 +8,20 @@
   color: #2a2a2a;
 }
 
-html,
 body {
-  height: 100%;
+  width: 120%;
+  height: 120%;
+  padding: 4rem;
 }
 
-body {
+.container {
+  border-radius: 1rem;
+  overflow: hidden;
+  width: 90rem;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 20rem 1fr 6rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
 }
 
 .sidenav {

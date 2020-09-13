@@ -151,16 +151,6 @@ body {
   margin-right: 0.5rem;
 }
 
-.content__cards:hover .content__card {
-  filter: brightness(0.8);
-}
-
-.content__card:hover {
-  transform: translateY(-0.25rem);
-  filter: brightness(1) !important;
-  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
-}
-
 .about {
   margin-bottom: 4rem;
 }
@@ -192,4 +182,16 @@ body {
 
 .highlight {
   color: #f4f4f4;
+}
+
+@media only screen and (min-width: 600px) {
+  .content__cards:hover .content__card {
+    filter: brightness(0.8);
+  }
+
+  .content__card:hover {
+    transform: translateY(-0.25rem);
+    filter: brightness(1) !important;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+  }
 }

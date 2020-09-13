@@ -1,3 +1,3 @@
 # Three of Something
 
-Please go to the [website](https://elianiva.github.io/three-of-something)
+Please go to the [website](https://three-of-something.vercel.app)

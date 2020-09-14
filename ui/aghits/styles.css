@@ -191,10 +191,15 @@ body {
   flex-direction: column;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
   border-radius: 0.5rem;
+  transition: all ease-out 0.2s;
+}
+
+.dashboard__card:hover {
+  filter: brightness(1.05);
 }
 
 .dashboard__detail {
-  padding: 2rem;
+  padding: 1.5rem 2rem 2rem;
   border-radius: 0 0 0.5rem 0.5rem;
 }
 
@@ -220,6 +225,12 @@ body {
   color: #f4f4f4;
   margin-bottom: 0.5rem;
   display: block;
+  text-decoration: none;
+  transition: color ease-out 0.2s;
+}
+
+.dashboard__servername:hover {
+  color: #4b5497;
 }
 
 .dashboard__shortdesc {

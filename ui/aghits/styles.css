@@ -35,9 +35,6 @@ body {
   padding: 1rem;
 }
 
-.sidenav__menu {
-}
-
 .sidenav__heading {
   display: relative;
   font-size: 1.5rem;
@@ -60,14 +57,23 @@ body {
 .sidenav__item {
   margin: 0.75rem 0 0 0.5rem;
   position: relative;
-  color: #696969;
   line-height: 2rem;
+  transition: color ease-out 0.2s;
 }
 
-.sidenav__items .active {
+.sidenav__item a {
+  text-decoration: none;
+  color: #696969;
+}
+
+.sidenav__item:hover a {
   color: #4c5598;
   font-weight: 700;
-  position: relative;
+}
+
+.sidenav__items .active a {
+  color: #4c5598;
+  font-weight: 700;
 }
 
 .active::before {
@@ -227,10 +233,6 @@ body {
   display: block;
   text-decoration: none;
   transition: color ease-out 0.2s;
-}
-
-.dashboard__servername:hover {
-  color: #4b5497;
 }
 
 .dashboard__shortdesc {

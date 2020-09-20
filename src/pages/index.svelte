@@ -5,11 +5,14 @@
   box-sizing: border-box;
 }
 
-:global(html),
+:global(html) {
+  height: 100%;
+}
+
 :global(body) {
   height: 100%;
   background-color: #212121;
-  background-image: url("/images/bg.svg");
+  background-image: url("/images/global/bg.svg");
 }
 
 .container {
@@ -100,8 +103,14 @@
 </style>
 
 <svelte:head>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap">
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap"
+  />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap"
+  />
 </svelte:head>
 
 <div class="container">
@@ -132,26 +141,26 @@
       <Card
         title="Malam Bujang"
         type="mobile"
-        path="./adam"
+        path="./ui/adam"
         designer="Adam"
         link="https://www.facebook.com/erst.madatayadih"
-        src={images.adam}
+        src="{images.adam}"
       />
       <Card
         title="Arceru"
         type="desktop"
-        path="./aghits"
+        path="./ui/aghits"
         designer="Aghits"
         link="https://github.com/nikarashihatsu"
-        src={images.aghits}
+        src="{images.aghits}"
       />
       <Card
         title="Isekai"
         type="desktop"
-        path="./dicha"
+        path="./ui/dicha"
         designer="Dicha"
         link="https://github.com/elianiva"
-        src={images.dicha}
+        src="{images.dicha}"
       />
     </div>
   </section>
@@ -163,9 +172,9 @@ import { metatags } from "@sveltech/routify"
 import Card from "./_components/Card.svelte"
 import About from "./_components/About.svelte"
 let images = {
-  adam: "images/adam.jpg",
-  aghits: "images/aghits.jpeg",
-  dicha: "images/dicha.png"
+  adam: "images/adam/cover.jpg",
+  aghits: "images/aghits/cover.jpeg",
+  dicha: "images/dicha/cover.png"
 }
 metatags.title = "Home | Three of Something"
 metatags.description =

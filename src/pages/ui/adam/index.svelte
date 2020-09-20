@@ -151,36 +151,36 @@
 </style>
 
 <div class="body">
-<div class="container">
-  <nav class="navbar">
-    <div class="navbar__hamburger">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-  </nav>
-  <section class="greet">
-    <h1 class="greet__heading">Malam, Bujang.</h1>
-    <span class="greet__date">Sabtu, 30 Februari 2020</span>
-  </section>
-  <form class="form" action="#">
-    <div class="form__wrapper">
-      <input class="form__input" type="text" placeholder="Username" />
-      <img class="form__icon" src="../images/adam/user.svg" alt="" />
-    </div>
-    <div class="form__wrapper">
-      <input class="form__input" type="text" placeholder="Password" />
-      <img class="form__icon" src="../images/adam/lock.svg" alt="" />
-    </div>
-    <div class="form__wrapper buttons">
-      <input class="form__button" type="submit" value="Login" />
-      <a class="form__button" href="#">Register</a>
-    </div>
-  </form>
-  <footer class="navigation">
-    <img class="navigation__icon" src="../images/adam/back.svg" alt="" />
-    <img class="navigation__icon" src="../images/adam/home.svg" alt="" />
-    <img class="navigation__icon" src="../images/adam/recent.svg" alt="" />
-  </footer>
-</div>
+  <div class="container">
+    <nav class="navbar">
+      <div class="navbar__hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+    <section class="greet">
+      <h1 class="greet__heading">Malam, Bujang.</h1>
+      <span class="greet__date">Sabtu, 30 Februari 2020</span>
+    </section>
+    <form class="form" action="#">
+      <div class="form__wrapper">
+        <input class="form__input" type="text" placeholder="Username" />
+        <img class="form__icon" src="../images/adam/user.svg" alt="" />
+      </div>
+      <div class="form__wrapper">
+        <input class="form__input" type="text" placeholder="Password" />
+        <img class="form__icon" src="../images/adam/lock.svg" alt="" />
+      </div>
+      <div class="form__wrapper buttons">
+        <input class="form__button" type="submit" value="Login" />
+        <a class="form__button" href="#">Register</a>
+      </div>
+    </form>
+    <footer class="navigation">
+      <img class="navigation__icon" src="../images/adam/back.svg" alt="" />
+      <img class="navigation__icon" src="../images/adam/home.svg" alt="" />
+      <img class="navigation__icon" src="../images/adam/recent.svg" alt="" />
+    </footer>
+  </div>
 </div>

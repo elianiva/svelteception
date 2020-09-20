@@ -1,4 +1,8 @@
 <style>
+:global(#routify-app) {
+  min-height: 100%;
+}
+
 :global(*) {
   margin: 0;
   padding: 0;

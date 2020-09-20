@@ -74,12 +74,13 @@
     <span class="card__creator">Designed by <a href="{link}">{designer}</a></span>
     {#if type === 'mobile'}
       <span class="card__detail">
-        <img class="card__icon" src="images/global/mobile.svg" alt="mobile" /> Mobile UI
+        <img class="card__icon" src="images/global/mobile.svg" alt="mobile" /> Mobile
+        UI
       </span>
     {:else}
       <span class="card__detail">
-        <img class="card__icon" src="images/global/desktop.svg" alt="desktop" /> Desktop
-        UI
+        <img class="card__icon" src="images/global/desktop.svg" alt="desktop" />
+        Desktop UI
       </span>
     {/if}
   </div>

@@ -48,7 +48,6 @@
   display: flex;
   gap: 2rem;
 }
-
 </style>
 
 <div class="body">

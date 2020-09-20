@@ -1,5 +1,4 @@
 <style>
-
 .body {
   height: 100%;
   display: flex;
@@ -261,11 +260,26 @@
 </style>
 
 <svelte:head>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Megrim&display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500&display=swap">
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap"
+  />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+  />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Megrim&display=swap"
+  />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap"
+  />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500&display=swap"
+  />
 </svelte:head>
 
 <div class="body">
@@ -320,7 +334,11 @@
         </div>
       </div>
       <div class="main__right">
-        <img class="main__img" src="../images/dicha/square-img.png" alt="isekai" />
+        <img
+          class="main__img"
+          src="../images/dicha/square-img.png"
+          alt="isekai"
+        />
         <div class="main__border"></div>
       </div>
     </main>

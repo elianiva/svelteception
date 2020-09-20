@@ -166,6 +166,14 @@
         link="https://github.com/elianiva"
         src="{images.dicha}"
       />
+      <Card
+        title="MyKantin"
+        type="desktop"
+        path="./ui/rizqi"
+        designer="Rizqi"
+        link="https://dribbble.com/sirizqi"
+        src="{images.rizqi}"
+      />
     </div>
   </section>
   <About />
@@ -176,9 +184,10 @@ import { metatags } from "@sveltech/routify"
 import Card from "./_components/Card.svelte"
 import About from "./_components/About.svelte"
 let images = {
-  adam: "images/adam/cover.jpg",
-  aghits: "images/aghits/cover.jpeg",
-  dicha: "images/dicha/cover.png"
+  adam: "/images/adam/cover.jpg",
+  aghits: "/images/aghits/cover.jpeg",
+  dicha: "/images/dicha/cover.png",
+  rizqi: "/images/rizqi/cover.png"
 }
 metatags.title = "Home | Three of Something"
 metatags.description =

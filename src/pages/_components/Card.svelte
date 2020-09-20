@@ -70,16 +70,15 @@
 <div class="card">
   <img class="card__img" src="{src}" alt="" />
   <div class="card__content">
-    <a href="{$url(path)}" target="_blank" class="card__title">{title}</a>
+    <a href="{path}" target="_blank" class="card__title">{title}</a>
     <span class="card__creator">Designed by <a href="{link}">{designer}</a></span>
     {#if type === 'mobile'}
       <span class="card__detail">
-        <img class="card__icon" src="./assets/mobile.svg" alt="mobile" /> Mobile
-        UI
+        <img class="card__icon" src="images/global/mobile.svg" alt="mobile" /> Mobile UI
       </span>
     {:else}
       <span class="card__detail">
-        <img class="card__icon" src="./assets/desktop.svg" alt="desktop" /> Desktop
+        <img class="card__icon" src="images/global/desktop.svg" alt="desktop" /> Desktop
         UI
       </span>
     {/if}
@@ -87,7 +86,6 @@
 </div>
 
 <script>
-import { url } from "@sveltech/routify"
 export let title
 export let path
 export let link

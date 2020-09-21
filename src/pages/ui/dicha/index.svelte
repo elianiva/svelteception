@@ -1,6 +1,6 @@
 <style>
 .body {
-  height: 100%;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -309,13 +309,13 @@
       </p>
       <div class="sidebar__icons">
         <a class="sidebar__icon" href="#" onclick="return false">
-          <img src="../images/dicha/twitter.svg" alt="twitter" />
+          <img src="{images.twitter}" alt="twitter" />
         </a>
         <a class="sidebar__icon" href="#" onclick="return false">
-          <img src="../images/dicha/instagram.svg" alt="instagram" />
+          <img src="{images.instagram}" alt="instagram" />
         </a>
         <a class="sidebar__icon" href="#" onclick="return false">
-          <img src="../images/dicha/facebook.svg" alt="facebook" />
+          <img src="{images.facebook}" alt="facebook" />
         </a>
       </div>
     </aside>
@@ -330,17 +330,23 @@
         </p>
         <button class="main__btn">SHOW ME</button>
         <div class="main__thumbnail">
-          <img src="../images/dicha/thumb.png" alt="flower" />
+          <img src="{images.thumb}" alt="flower" />
         </div>
       </div>
       <div class="main__right">
-        <img
-          class="main__img"
-          src="../images/dicha/square-img.png"
-          alt="isekai"
-        />
+        <img class="main__img" src="{images.img}" alt="isekai" />
         <div class="main__border"></div>
       </div>
     </main>
   </div>
 </div>
+
+<script>
+const images = {
+  twitter: "/images/dicha/twitter.svg",
+  instagram: "/images/dicha/instagram.svg",
+  facebook: "/images/dicha/facebook.svg",
+  thumb: "/images/dicha/thumb.png",
+  img: "/images/dicha/square-img.png"
+}
+</script>

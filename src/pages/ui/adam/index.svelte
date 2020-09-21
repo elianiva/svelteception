@@ -166,11 +166,11 @@
     <form class="form" action="#">
       <div class="form__wrapper">
         <input class="form__input" type="text" placeholder="Username" />
-        <img class="form__icon" src="../images/adam/user.svg" alt="" />
+        <img class="form__icon" src="{images.user}" alt="" />
       </div>
       <div class="form__wrapper">
         <input class="form__input" type="text" placeholder="Password" />
-        <img class="form__icon" src="../images/adam/lock.svg" alt="" />
+        <img class="form__icon" src="{images.lock}" alt="" />
       </div>
       <div class="form__wrapper buttons">
         <input class="form__button" type="submit" value="Login" />
@@ -178,9 +178,19 @@
       </div>
     </form>
     <footer class="navigation">
-      <img class="navigation__icon" src="../images/adam/back.svg" alt="" />
-      <img class="navigation__icon" src="../images/adam/home.svg" alt="" />
-      <img class="navigation__icon" src="../images/adam/recent.svg" alt="" />
+      <img class="navigation__icon" src="{images.back}" alt="" />
+      <img class="navigation__icon" src="{images.home}" alt="" />
+      <img class="navigation__icon" src="{images.recent}" alt="" />
     </footer>
   </div>
 </div>
+
+<script>
+const images = {
+  user: "/images/adam/user.svg",
+  lock: "/images/adam/lock.svg",
+  back: "/images/adam/lock.svg",
+  home: "/images/adam/lock.svg",
+  recent: "/images/adam/lock.svg"
+}
+</script>

@@ -8,17 +8,19 @@ main {
 }
 
 .body {
-  height: 100%;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #fcd561;
 }
 
 .container {
   display: grid;
   width: 100%;
-  max-width: 1920px;
+  max-width: 1366px;
   grid-template-columns: 1fr 22rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
 }
 
@@ -178,14 +180,14 @@ import PopularCard from "./_components/PopularCard.svelte"
 import Sidebar from "./_components/Sidebar.svelte"
 
 const images = {
-  all: "../images/rizqi/foods.jpg",
-  pizza: "../images/rizqi/pizza.jpg",
-  burger: "../images/rizqi/burger.jpg",
-  juice: "../images/rizqi/juice.jpg",
-  cheese: "../images/rizqi/cheese.jpg",
-  philadelphia: "../images/rizqi/philadelphia.jpg",
-  mozarella: "../images/rizqi/mozarella.jpg",
-  gigachad: "../images/rizqi/gigachad.jpg",
-  heart: "../images/rizqi/heart.svg"
+  all: "/images/rizqi/foods.jpg",
+  pizza: "/images/rizqi/pizza.jpg",
+  burger: "/images/rizqi/burger.jpg",
+  juice: "/images/rizqi/juice.jpg",
+  cheese: "/images/rizqi/cheese.jpg",
+  philadelphia: "/images/rizqi/philadelphia.jpg",
+  mozarella: "/images/rizqi/mozarella.jpg",
+  gigachad: "/images/rizqi/gigachad.jpg",
+  heart: "/images/rizqi/heart.svg"
 }
 </script>

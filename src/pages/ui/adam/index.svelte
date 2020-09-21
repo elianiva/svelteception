@@ -189,8 +189,8 @@
 const images = {
   user: "/images/adam/user.svg",
   lock: "/images/adam/lock.svg",
-  back: "/images/adam/lock.svg",
-  home: "/images/adam/lock.svg",
-  recent: "/images/adam/lock.svg"
+  back: "/images/adam/back.svg",
+  home: "/images/adam/home.svg",
+  recent: "/images/adam/recent.svg"
 }
 </script>

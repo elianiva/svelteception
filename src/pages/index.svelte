@@ -20,7 +20,7 @@
 }
 
 .container {
-  max-width: 960px;
+  max-width: 1080px;
   margin: 0 auto;
   padding: 0 1rem;
   height: 100%;
@@ -50,6 +50,11 @@
 
 .every {
   color: #f07178;
+  text-decoration: none;
+}
+
+.no {
+  color: #c792ea;
   text-decoration: none;
 }
 
@@ -128,11 +133,17 @@
         class="some"
       >&lbrace;Some</a><span class="comma">,</span>
       <a
-        href="https://nikarashihatsu.github.io/three-of-everything/"
+        href="https://github.com/nikarashihatsu/three-of-everything"
         target="_blank"
         rel="norel noreferrer "
         class="every"
-      >Every&rbrace;</a>thing
+      >Every</a><span class="comma">,</span>
+      <a
+        href="https://github.com/LynSotera/three-of-nothing"
+        target="_blank"
+        rel="norel noreferrer "
+        class="no"
+      >No&rbrace;</a>thing
     </h1>
     <pre class="hero__code"><span class="purple">design</span>.<span
         class="red"

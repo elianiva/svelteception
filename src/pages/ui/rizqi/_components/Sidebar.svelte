@@ -111,7 +111,7 @@
 }
 
 .button:hover {
-  filter: brightness(1.1)
+  filter: brightness(1.1);
 }
 
 .button__arrow {

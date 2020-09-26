@@ -15,11 +15,11 @@
   justify-content: center;
   padding: 5rem;
   background-color: #ffffff;
-  z-index: -1;
 }
 
 .container {
   position: relative;
+  z-index: 2;
   width: 25rem;
   height: 46rem;
   overflow: hidden;
@@ -116,11 +116,6 @@
   color: #b0b0b0;
 }
 
-.form__icon {
-  width: 1.5rem;
-  height: 1.5rem;
-}
-
 .form__button {
   background: none;
   text-decoration: none;
@@ -131,6 +126,13 @@
   text-align: center;
   border-radius: 0.5rem;
   font-size: 1rem;
+  cursor: pointer;
+  transition: all ease-out .2s;
+}
+
+.form__button:hover {
+  background-color: #efefef;
+  color: #121212;
 }
 
 .navigation {
@@ -144,10 +146,6 @@
   padding: 2rem;
 }
 
-.navigation__icon {
-  width: 1rem;
-  height: 1rem;
-}
 </style>
 
 <div class="body">
@@ -166,11 +164,11 @@
     <form class="form" action="#">
       <div class="form__wrapper">
         <input class="form__input" type="text" placeholder="Username" />
-        <img class="form__icon" src="{images.user}" alt="" />
+        <UserIcon width="1.5rem" height="1.5rem" />
       </div>
       <div class="form__wrapper">
         <input class="form__input" type="text" placeholder="Password" />
-        <img class="form__icon" src="{images.lock}" alt="" />
+        <LockIcon width="1.5rem" height="1.5rem" />
       </div>
       <div class="form__wrapper buttons">
         <input class="form__button" type="submit" value="Login" />
@@ -178,19 +176,17 @@
       </div>
     </form>
     <footer class="navigation">
-      <img class="navigation__icon" src="{images.back}" alt="" />
-      <img class="navigation__icon" src="{images.home}" alt="" />
-      <img class="navigation__icon" src="{images.recent}" alt="" />
+      <BackIcon width="1rem" height="1rem" />
+      <HomeIcon width="1rem" height="1rem" />
+      <RecentIcon width="1rem" height="1rem" />
     </footer>
   </div>
 </div>
 
 <script>
-const images = {
-  user: "/images/adam/user.svg",
-  lock: "/images/adam/lock.svg",
-  back: "/images/adam/back.svg",
-  home: "/images/adam/home.svg",
-  recent: "/images/adam/recent.svg"
-}
+import UserIcon from "./assets/user.svg"
+import LockIcon from "./assets/lock.svg"
+import BackIcon from "./assets/back.svg"
+import HomeIcon from "./assets/home.svg"
+import RecentIcon from "./assets/recent.svg"
 </script>

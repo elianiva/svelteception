@@ -50,8 +50,8 @@
       repo called <span class="highlight">Three of Everything</span>. If we
       combine those, we'll get <span class="highlight">Three of
         &lbrace;Some,Every&rbrace;thing</span>. And yes, that's BASH expansion
-      braces. <br/> UPDATE: One of <a href="https://github.com/LynSotera/">my friend</a>
-      joined, and now it became <span class="highlight">Three of
+      braces. <br /> UPDATE: One of <a href="https://github.com/LynSotera/">my
+        friend</a> joined, and now it became <span class="highlight">Three of
         &lbrace;Some,Every,No&rbrace;thing</span>
     </p>
   </div>

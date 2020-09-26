@@ -1,8 +1,8 @@
 <style>
 .sidebar {
   position: fixed;
-  left: 0;
   top: 0;
+  left: 0;
   bottom: 0;
   width: 6rem;
   display: flex;
@@ -10,9 +10,12 @@
   align-items: center;
   gap: 1.5rem;
   background-color: #f7444e;
+  padding-top: 2rem;
 }
 
 .sidebar__icon {
+  display: flex;
+  align-items: center;
   color: #ffffff;
 }
 
@@ -25,7 +28,7 @@
   padding: 1rem;
   color: #f7444e;
   background-color: #ffffff;
-  border-radius: 1rem;
+  border-radius: 1.25rem;
 }
 </style>
 

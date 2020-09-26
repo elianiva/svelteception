@@ -28,11 +28,11 @@
 }
 </style>
 
-<li class="list {active ? 'active' : ''}">
+<div class="list {active ? 'active' : ''}">
   <span class="list__number">{number}</span>
   <span class="list__title">{title}</span>
   <span class="list__duration">{formatSeconds(duration)}</span>
-</li>
+</div>
 
 <script>
 export let number, title, duration, active

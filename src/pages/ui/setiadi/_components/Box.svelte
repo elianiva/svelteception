@@ -7,7 +7,7 @@
 
 .box__title {
   display: block;
-  padding: 0 1rem 1.5rem;
+  padding: 0 1rem 1rem;
   font-size: 1.5rem;
   font-family: "Roboto", sans-serif;
   font-weight: 600;

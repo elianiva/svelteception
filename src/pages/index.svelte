@@ -153,47 +153,72 @@
   </div>
   <section class="content">
     <div class="content__cards">
-      <Card
-        title="Malam Bujang"
-        type="mobile"
-        path="./ui/adam"
-        designer="Adam"
-        link="https://www.facebook.com/erst.madatayadih"
-        src="{images.adam}"
-      />
-      <Card
-        title="Arceru"
-        type="desktop"
-        path="./ui/aghits"
-        designer="Aghits"
-        link="https://github.com/nikarashihatsu"
-        src="{images.aghits}"
-      />
-      <Card
-        title="Isekai"
-        type="desktop"
-        path="./ui/dicha"
-        designer="Dicha"
-        link="https://github.com/elianiva"
-        src="{images.dicha}"
-      />
-      <Card
-        title="MyKantin"
-        type="desktop"
-        path="./ui/rizqi"
-        designer="Rizqi"
-        link="https://dribbble.com/sirizqi"
-        src="{images.rizqi}"
-      />
+      {#each designs as design}
+        <Card
+          title="{design.title}"
+          type="{design.type}"
+          path="{design.path}"
+          designer="{design.designer}"
+          link="{design.link}"
+          src="{design.src}"
+        />
+      {/each}
     </div>
   </section>
   <About />
 </div>
 
 <script>
-import { metatags } from "@sveltech/routify"
 import Card from "./_components/Card.svelte"
 import About from "./_components/About.svelte"
+import { metatags } from "@sveltech/routify"
+
+metatags.title = "Home | Three of Something"
+metatags.description =
+  "Website to keep all of the result of a small challenge that I did with my friend."
+
+let designs = [
+  {
+    title: "Malam Bujang",
+    type: "mobile",
+    path: "./ui/adam",
+    designer: "Adam",
+    link: "https://www.facebook.com/erst.madatayadih",
+    src: "/images/adam/cover.jpg"
+  },
+  {
+    title: "Arceru",
+    type: "desktop",
+    path: "./ui/aghits",
+    designer: "Aghits",
+    link: "https://github.com/nikarashihatsu",
+    src: "/images/aghits/cover.jpeg"
+  },
+  {
+    title: "Isekai",
+    type: "desktop",
+    path: "./ui/dicha",
+    designer: "Dicha",
+    link: "https://github.com/elianiva",
+    src: "/images/dicha/cover.png"
+  },
+  {
+    title: "MyKantin",
+    type: "desktop",
+    path: "./ui/rizqi",
+    designer: "Rizqi",
+    link: "https://dribbble.com/sirizqi",
+    src: "/images/rizqi/cover.png"
+  },
+  {
+    title: "Online Course",
+    type: "desktop",
+    path: "./ui/setiadi",
+    designer: "Setiadi",
+    link: "https://dribbble.com/setiadi_p",
+    src: "/images/setiadi/cover.webp"
+  }
+]
 
 let images = {
   adam: "/images/adam/cover.jpg",
@@ -201,7 +226,4 @@ let images = {
   dicha: "/images/dicha/cover.png",
   rizqi: "/images/rizqi/cover.png"
 }
-metatags.title = "Home | Three of Something"
-metatags.description =
-  "Website to keep all of the result of a small challenge that I did with my friend."
 </script>

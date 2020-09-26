@@ -178,6 +178,10 @@ import PopularCard from "./_components/PopularCard.svelte"
 import Sidebar from "./_components/Sidebar.svelte"
 import HeartIcon from "./icons/heart.svg"
 import FoodIcon from "./icons/food-icon.svg"
+import { metatags } from "@sveltech/routify"
+
+metatags.title = "Riqzi | Three of Something"
+metatags.description = "MyKantin UI by Rizqi"
 
 const images = {
   all: "/images/rizqi/foods.jpg",

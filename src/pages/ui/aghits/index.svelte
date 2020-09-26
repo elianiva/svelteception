@@ -100,4 +100,9 @@ import Sidenav from "./_components/Sidenav.svelte"
 import ProfileCard from "./_components/Profilecard.svelte"
 import ServerCard from "./_components/Servercard.svelte"
 import Rightnav from "./_components/Rightnav.svelte"
+
+import { metatags } from "@sveltech/routify"
+
+metatags.title = "Aghits | Three of Something"
+metatags.description = "Arceru UI by Adam"
 </script>

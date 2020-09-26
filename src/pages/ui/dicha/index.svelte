@@ -356,4 +356,9 @@ const images = {
   thumb: "/images/dicha/thumb.png",
   img: "/images/dicha/square-img.png"
 }
+
+import { metatags } from "@sveltech/routify"
+
+metatags.title = "Dicha | Three of Something"
+metatags.description = "Isekai landing page UI by Dicha"
 </script>

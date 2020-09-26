@@ -189,4 +189,9 @@ import LockIcon from "./icons/lock.svg"
 import BackIcon from "./icons/back.svg"
 import HomeIcon from "./icons/home.svg"
 import RecentIcon from "./icons/recent.svg"
+
+import { metatags } from "@sveltech/routify"
+
+metatags.title = "Adam | Three of Something"
+metatags.description = "Malam Bujang UI by Adam"
 </script>

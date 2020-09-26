@@ -28,11 +28,6 @@
   cursor: pointer;
 }
 
-.profile__edit img {
-  width: 1rem;
-  height: 1rem;
-}
-
 .profile__desc {
   max-width: 80ch;
   color: #696969;
@@ -46,7 +41,7 @@
   <div class="profile__about">
     <span class="profile__username">{username}
       <button class="profile__edit">
-        <img src="../images/aghits/edit.svg" alt="edit" />
+        <EditIcon width="1rem" height="1rem" />
       </button>
     </span>
     <p class="profile__desc">
@@ -58,6 +53,7 @@
 </div>
 
 <script>
+import EditIcon from "../icons/edit.svg"
 export let username
 export let desc
 </script>

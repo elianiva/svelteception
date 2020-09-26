@@ -289,16 +289,20 @@
         <h1 class="navbar__title">Isekai</h1>
         <ul class="navbar__items">
           <li class="navbar__item">
-            <a href="#" onclick="return false">HOME</a>
+            <!-- svelte-ignore a11y-invalid-attribute -->
+            <a href="javascript:void(0)">HOME</a>
           </li>
           <li class="navbar__item">
-            <a href="#" onclick="return false">EXPLORE</a>
+            <!-- svelte-ignore a11y-invalid-attribute -->
+            <a href="javascript:void(0)">EXPLORE</a>
           </li>
           <li class="navbar__item">
-            <a href="#" onclick="return false">GALLERY</a>
+            <!-- svelte-ignore a11y-invalid-attribute -->
+            <a href="javascript:void(0)">GALLERY</a>
           </li>
           <li class="navbar__item">
-            <a href="#" onclick="return false">ABOUT</a>
+            <!-- svelte-ignore a11y-invalid-attribute -->
+            <a href="javascript:void(0)">ABOUT</a>
           </li>
         </ul>
       </div>
@@ -308,13 +312,16 @@
         This world is too smol, Isekai is where we supposed to live. <br /> ー RandomGuy2030
       </p>
       <div class="sidebar__icons">
-        <a class="sidebar__icon" href="#" onclick="return false">
+        <!-- svelte-ignore a11y-invalid-attribute -->
+        <a class="sidebar__icon" href="javascript:void(0)">
           <img src="{images.twitter}" alt="twitter" />
         </a>
-        <a class="sidebar__icon" href="#" onclick="return false">
+        <!-- svelte-ignore a11y-invalid-attribute -->
+        <a class="sidebar__icon" href="javascript:void(0)">
           <img src="{images.instagram}" alt="instagram" />
         </a>
-        <a class="sidebar__icon" href="#" onclick="return false">
+        <!-- svelte-ignore a11y-invalid-attribute -->
+        <a class="sidebar__icon" href="javascript:void(0)">
           <img src="{images.facebook}" alt="facebook" />
         </a>
       </div>

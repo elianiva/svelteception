@@ -48,11 +48,6 @@
   font-family: "Nunito";
 }
 
-.popular__icon {
-  width: 1rem;
-  height: 1rem;
-}
-
 .popular__score,
 .popular__price {
   font-weight: 600;
@@ -66,17 +61,13 @@
   </figure>
   <a href="{href}" class="popular__title">{title}</a>
   <div class="popular__label">
-    <img class="popular__icon" src="../images/rizqi/star.svg" alt="" />
+    <StarIcon width="1rem" height="1rem" />
     <span class="popular__score">{score}</span>
     <span class="popular__price">Rp {price.toLocaleString('id-ID')}</span>
   </div>
 </div>
 
 <script>
-export let src
-export let title
-export let duration
-export let href
-export let score
-export let price
+import StarIcon from "../icons/star.svg"
+export let src, title, duration, href, score, price
 </script>

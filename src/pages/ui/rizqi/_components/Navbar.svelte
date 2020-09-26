@@ -53,20 +53,26 @@
 .navbar__search::placeholder {
   color: #787878;
 }
-
-.search__icon {
-  width: 1rem;
-  height: 1rem;
-  position: absolute;
-  left: 1rem;
-}
 </style>
 
 <nav class="navbar">
-  <div class="navbar__hamburger"><span></span> <span></span> <span></span></div>
+  <div class="navbar__hamburger">
+    <!-- prettier-ignore -->
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
   <h1 class="navbar__title">MyKantin</h1>
   <div class="navbar__search">
-    <img class="search__icon" src="../images/rizqi/search.svg" alt="" />
+    <SearchIcon
+      width="1rem"
+      height="1rem"
+      style="position: absolute; left: 1rem"
+    />
     <input type="text" placeholder="Cari Makan Bang?" />
   </div>
 </nav>
+
+<script>
+import SearchIcon from "../icons/search.svg"
+</script>

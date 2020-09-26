@@ -168,12 +168,19 @@
     <span class="price__label">Rp 690.000</span>
   </div>
   <button class="button">
-    Pesan <img class="button__arrow" src="/images/rizqi/arrow.svg" alt="" />
+    Pesan
+    <ArrowIcon
+      width="1rem"
+      height="1rem"
+      style="position: absolute; right: 1rem"
+    />
   </button>
 </aside>
 
 <script>
 import OrderItem from "./OrderItem.svelte"
+import ArrowIcon from "../icons/arrow.svg"
+
 const images = {
   gigachad: "/images/rizqi/gigachad.jpg",
   heart: "/images/rizqi/heart.svg",

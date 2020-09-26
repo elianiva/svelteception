@@ -22,6 +22,8 @@ main {
   grid-template-columns: 1fr 22rem;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
+  border-radius: 0.5rem;
+  overflow: hidden;
 }
 
 .header {
@@ -111,11 +113,7 @@ main {
     <main>
       <Navbar />
       <div class="header">
-        <img
-          class="header__illust"
-          src="../images/rizqi/food-icon.svg"
-          alt=""
-        />
+        <FoodIcon width="20rem" height="8rem" style="margin-left: 4rem" />
         <span class="header__title">
           Promo Hari Ini <span class="header__subtitle">Perut kenyang, hati
             senang</span>
@@ -144,7 +142,7 @@ main {
           <PopularCard
             src="{images.cheese}"
             title="4 Cheese"
-            href="#"
+            href="javascript:void(0)"
             duration="25-30"
             score="4.7"
             price="{130000}"
@@ -152,7 +150,7 @@ main {
           <PopularCard
             src="{images.philadelphia}"
             title="Philadelphia"
-            href="#"
+            href="javascript:void(0)"
             duration="30-35"
             score="4.5"
             price="{250000}"
@@ -160,7 +158,7 @@ main {
           <PopularCard
             src="{images.mozarella}"
             title="Mozarella"
-            href="#"
+            href="javascript:void(0)"
             duration="40-46"
             score="4.6"
             price="{175000}"
@@ -178,6 +176,8 @@ import Pagination from "./_components/Pagination.svelte"
 import CategoryCard from "./_components/CategoryCard.svelte"
 import PopularCard from "./_components/PopularCard.svelte"
 import Sidebar from "./_components/Sidebar.svelte"
+import HeartIcon from "./icons/heart.svg"
+import FoodIcon from "./icons/food-icon.svg"
 
 const images = {
   all: "/images/rizqi/foods.jpg",
@@ -187,7 +187,6 @@ const images = {
   cheese: "/images/rizqi/cheese.jpg",
   philadelphia: "/images/rizqi/philadelphia.jpg",
   mozarella: "/images/rizqi/mozarella.jpg",
-  gigachad: "/images/rizqi/gigachad.jpg",
-  heart: "/images/rizqi/heart.svg"
+  gigachad: "/images/rizqi/gigachad.jpg"
 }
 </script>

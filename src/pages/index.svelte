@@ -194,6 +194,7 @@
 import { metatags } from "@sveltech/routify"
 import Card from "./_components/Card.svelte"
 import About from "./_components/About.svelte"
+
 let images = {
   adam: "/images/adam/cover.jpg",
   aghits: "/images/aghits/cover.jpeg",

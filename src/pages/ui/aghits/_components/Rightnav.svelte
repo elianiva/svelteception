@@ -23,11 +23,6 @@
   border-radius: 0.5rem;
 }
 
-.rightnav__icon img {
-  width: 2rem;
-  height: 2rem;
-}
-
 .rightnav__container .active {
   background-color: #4a5084;
 }
@@ -36,10 +31,15 @@
 <aside class="rightnav">
   <div class="rightnav__container">
     <button class="rightnav__icon active">
-      <img src="../images/aghits/users.svg" alt="" />
+      <UserIcon width="2rem" height="2rem" />
     </button>
     <button class="rightnav__icon">
-      <img src="../images/aghits/settings.svg" alt="settings" />
+      <SettingIcon width="2rem" height="2rem" />
     </button>
   </div>
 </aside>
+
+<script>
+import UserIcon from "../icons/users.svg"
+import SettingIcon from "../icons/settings.svg"
+</script>

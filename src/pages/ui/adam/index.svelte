@@ -127,7 +127,7 @@
   border-radius: 0.5rem;
   font-size: 1rem;
   cursor: pointer;
-  transition: all ease-out .2s;
+  transition: all ease-out 0.2s;
 }
 
 .form__button:hover {
@@ -145,7 +145,6 @@
   justify-items: center;
   padding: 2rem;
 }
-
 </style>
 
 <div class="body">
@@ -172,7 +171,8 @@
       </div>
       <div class="form__wrapper buttons">
         <input class="form__button" type="submit" value="Login" />
-        <a class="form__button" href="#">Register</a>
+        <!-- svelte-ignore a11y-invalid-attribute -->
+        <a class="form__button" href="javascript:void(0)">Register</a>
       </div>
     </form>
     <footer class="navigation">
@@ -184,9 +184,9 @@
 </div>
 
 <script>
-import UserIcon from "./assets/user.svg"
-import LockIcon from "./assets/lock.svg"
-import BackIcon from "./assets/back.svg"
-import HomeIcon from "./assets/home.svg"
-import RecentIcon from "./assets/recent.svg"
+import UserIcon from "./icons/user.svg"
+import LockIcon from "./icons/lock.svg"
+import BackIcon from "./icons/back.svg"
+import HomeIcon from "./icons/home.svg"
+import RecentIcon from "./icons/recent.svg"
 </script>

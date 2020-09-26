@@ -68,21 +68,21 @@
         <span class="dashboard__heading">Servers</span>
         <div class="dashboard__cards">
           <ServerCard
-            href="#"
+            href="javascript:void(0)"
             title="Survival"
             desc="Beat the night, survive the realm."
             img="../images/aghits/thumb-1.png"
             color="blue"
           />
           <ServerCard
-            href="#"
+            href="javascript:void(0)"
             title="Creative"
             desc="Build the realm upon your dream"
             img="../images/aghits/thumb-2.png"
             color="yellow"
           />
           <ServerCard
-            href="#"
+            href="javascript:void(0)"
             title="Skyblock"
             desc="Floating island? Seems like a challenge"
             img="../images/aghits/thumb-3.png"

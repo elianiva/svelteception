@@ -36,6 +36,11 @@
   font-size: 1.125rem;
   font-weight: 600;
   color: #ffffff;
+  cursor: pointer;
+}
+
+.assignment__button:hover {
+  filter: brightness(0.9);
 }
 
 .assignment__time {

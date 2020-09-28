@@ -42,8 +42,10 @@
 }
 
 .webinar {
+  position: relative;
   padding: 0 1rem;
   font-family: "Roboto", sans-serif;
+  height: 100%;
 }
 
 .webinar__img {
@@ -61,6 +63,17 @@
 .webinar__date {
   font-weight: 500;
   color: #787878;
+}
+
+.webinar__more {
+  display: block;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  color: #f7444e;
+  text-decoration: none;
 }
 
 .content {
@@ -115,6 +128,12 @@
   border-radius: 0.5rem;
   background-color: #ff7a7b;
   color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.content__icon:hover {
+  filter: brightness(0.9)
 }
 
 .content__tab {
@@ -192,12 +211,12 @@
             <span class="content__author">by Setiadi Putra Pratama &#9679;
               September 30, 2020</span>
             <div class="content__icons">
-              <div class="content__icon">
+              <button class="content__icon">
                 <DownloadIcon width="1rem" height="1rem" />
-              </div>
-              <div class="content__icon">
+              </button>
+              <button class="content__icon">
                 <BookmarkIcon width="1rem" height="1rem" />
-              </div>
+              </button>
             </div>
           </div>
           <div class="content__tab">
@@ -237,6 +256,8 @@
           />
           <span class="webinar__title">Web Development</span>
           <span class="webinar__date">September 30, 2020</span>
+          <!-- svelte-ignore a11y-invalid-attribute -->
+          <a href="javascript:void(0)" class="webinar__more">SEE ALL</a>
         </div>
       </Box>
     </main>

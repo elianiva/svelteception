@@ -8,6 +8,12 @@
   font-family: "Roboto", sans-serif;
   color: #787878;
   font-weight: 500;
+  text-decoration: none;
+  transition: all ease-out .2s;
+}
+
+.list:hover {
+  background-color: #fff5f4;
 }
 
 .list.active {
@@ -28,11 +34,12 @@
 }
 </style>
 
-<div class="list {active ? 'active' : ''}">
+<!-- svelte-ignore a11y-invalid-attribute -->
+<a href="javascript:void(0)" class="list {active ? 'active' : ''}">
   <span class="list__number">{number}</span>
   <span class="list__title">{title}</span>
   <span class="list__duration">{formatSeconds(duration)}</span>
-</div>
+</a>
 
 <script>
 export let number, title, duration, active

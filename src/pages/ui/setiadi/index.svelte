@@ -208,7 +208,8 @@
             <h1 class="content__title">
               More familiar with UI/UX - Introduction
             </h1>
-            <span class="content__author">by Setiadi Putra Pratama • September 30, 2020</span>
+            <span class="content__author">by Setiadi Putra Pratama • September
+              30, 2020</span>
             <div class="content__icons">
               <button class="content__icon">
                 <DownloadIcon width="1rem" height="1rem" />
@@ -238,11 +239,13 @@
           <SearchIcon width="1rem" height="1rem" />
           <input class="search__input" type="text" placeholder="Search" />
         </div>
-        {#each courseItem as item, index}
+        {#each courseItems as item, index}
           <CourseItem
             src="{item.src}"
             title="{item.title}"
             author="{item.author}"
+            colour="{item.colour}"
+            width="{item.width}"
           />
         {/each}
       </Box>
@@ -303,17 +306,27 @@ const listItems = [
   { title: "Let's Do IT!", duration: 923, active: false }
 ]
 
-const courseItem = [
+const courseItems = [
   {
     title: "Digital Marketing",
     author: "Setiadi",
-    src: "/images/setiadi/cuadrada.jpg"
+    src: "/images/setiadi/cuadrada.jpg",
+    colour: "#B46385",
+    width: "70%"
   },
-  { title: "Visual Art", author: "Abraham", src: "/images/setiadi/tree.png" },
+  {
+    title: "Visual Art",
+    author: "Abraham",
+    src: "/images/setiadi/tree.png",
+    colour: "#68679F",
+    width: "40%"
+  },
   {
     title: "Minimalist Thinking",
     author: "Lisa",
-    src: "/images/setiadi/usb.png"
+    src: "/images/setiadi/usb.png",
+    colour: "#1AA09B",
+    width: "90%"
   }
 ]
 

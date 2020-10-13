@@ -8,6 +8,7 @@
   height: 4rem;
   font-weight: 600;
   color: #282828;
+  font-family: "Poppins", sans-serif;
 }
 
 .order__img {
@@ -32,6 +33,7 @@
   color: #282828;
   gap: 0.25rem;
   height: 4rem;
+  font-family: "Poppins", sans-serif;
 }
 
 .order__icon {
@@ -63,9 +65,5 @@
 {/if}
 
 <script>
-export let src
-export let qty
-export let name
-export let price
-export let food
+export let src, qty, name, price, food
 </script>

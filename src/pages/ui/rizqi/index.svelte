@@ -35,15 +35,10 @@ main {
   background-color: #fff7ed;
 }
 
-.header__illust {
-  width: 20rem;
-  height: 8rem;
-  margin-left: 4rem;
-}
-
 .header__title,
 .header__subtitle {
   color: #fb6c38;
+  font-family: "Poppins", sans-serif;
 }
 
 .header__title {
@@ -176,7 +171,6 @@ import Pagination from "./_components/Pagination.svelte"
 import CategoryCard from "./_components/CategoryCard.svelte"
 import PopularCard from "./_components/PopularCard.svelte"
 import Sidebar from "./_components/Sidebar.svelte"
-import HeartIcon from "./icons/heart.svg"
 import FoodIcon from "./icons/food-icon.svg"
 import { metatags } from "@sveltech/routify"
 

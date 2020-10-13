@@ -8,6 +8,7 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  font-family: "Poppins", sans-serif;
 }
 
 .category__img {
@@ -40,6 +41,5 @@
 </figure>
 
 <script>
-export let title
-export let src
+export let title, src
 </script>

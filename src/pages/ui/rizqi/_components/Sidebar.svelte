@@ -10,9 +10,10 @@
   justify-content: flex-end;
   gap: 2rem;
   padding: 1rem;
+  font-family: "Poppins", sans-serif;
 }
 
-.topbar__icon {
+:global(.topbar__icon) {
   width: 1.5rem;
   height: 1.5rem;
 }
@@ -46,6 +47,7 @@
   padding: 1rem;
   background-color: #6455c2;
   border-radius: 1rem;
+  font-family: "Poppins", sans-serif;
 }
 
 .sidecard span {
@@ -81,6 +83,7 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 4rem;
+  font-family: "Poppins", sans-serif;
 }
 
 .price__title {
@@ -113,18 +116,11 @@
 .button:hover {
   filter: brightness(1.1);
 }
-
-.button__arrow {
-  position: absolute;
-  width: 1rem;
-  height: 1rem;
-  right: 1rem;
-}
 </style>
 
 <aside class="sidebar">
   <div class="topbar">
-    <img class="topbar__icon" src="{images.heart}" alt="" />
+    <HeartIcon class="topbar__icon" />
     <span class="topbar__order">3</span>
     <img class="topbar__img" src="{images.gigachad}" alt="" />
   </div>
@@ -180,10 +176,11 @@
 <script>
 import OrderItem from "./OrderItem.svelte"
 import ArrowIcon from "../icons/arrow.svg"
+import HeartIcon from "../icons/heart.svg"
+import FoodIcon from "../icons/food-icon.svg"
 
 const images = {
   gigachad: "/images/rizqi/gigachad.jpg",
-  heart: "/images/rizqi/heart.svg",
   cheese: "/images/rizqi/cheese.jpg",
   juice: "/images/rizqi/juice.jpg",
   salad: "/images/rizqi/salad.jpg",

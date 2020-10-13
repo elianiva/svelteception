@@ -51,6 +51,7 @@
 .popular__score,
 .popular__price {
   font-weight: 600;
+  font-family: "Poppins", sans-serif;
 }
 </style>
 

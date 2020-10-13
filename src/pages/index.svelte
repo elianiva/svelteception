@@ -217,13 +217,14 @@ let designs = [
     designer: "Setiadi",
     link: "https://dribbble.com/setiadi_p",
     src: "/images/setiadi/cover.webp"
+  },
+  {
+    title: "Book Store",
+    type: "desktop",
+    path: "./ui/irvan",
+    designer: "Irvan",
+    link: "https://dribbble.com/irvan_moses",
+    src: "/images/irvan/cover.png"
   }
 ]
-
-let images = {
-  adam: "/images/adam/cover.jpg",
-  aghits: "/images/aghits/cover.jpeg",
-  dicha: "/images/dicha/cover.png",
-  rizqi: "/images/rizqi/cover.png"
-}
 </script>

@@ -9,7 +9,7 @@
   color: #787878;
   font-weight: 500;
   text-decoration: none;
-  transition: all ease-out .2s;
+  transition: all ease-out 0.2s;
 }
 
 .list:hover {

@@ -1,7 +1,7 @@
 <style>
 .discuss {
   padding: 0.5rem 1rem;
-  margin: .5rem 0;
+  margin: 0.5rem 0;
   font-family: "Roboto", sans-serif;
 }
 

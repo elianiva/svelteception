@@ -133,7 +133,7 @@
 }
 
 .content__icon:hover {
-  filter: brightness(0.9)
+  filter: brightness(0.9);
 }
 
 .content__tab {
@@ -208,8 +208,7 @@
             <h1 class="content__title">
               More familiar with UI/UX - Introduction
             </h1>
-            <span class="content__author">by Setiadi Putra Pratama &#9679;
-              September 30, 2020</span>
+            <span class="content__author">by Setiadi Putra Pratama • September 30, 2020</span>
             <div class="content__icons">
               <button class="content__icon">
                 <DownloadIcon width="1rem" height="1rem" />

@@ -3,9 +3,9 @@
   display: flex;
   gap: 0.5rem;
   flex-direction: column;
-  border-radius: 0.5rem;
+  border-radius: 0.25rem;
   overflow: hidden;
-  background-color: #1a1a1a;
+  background-color: #1f2430;
   transition: all ease-out 0.2s;
 }
 
@@ -21,33 +21,34 @@
 
 .card__title {
   font-size: 1.5rem;
-  color: #b0bec5;
-  font-family: "PT Sans", sans-serif;
+  font-weight: 600;
+  color: #cbccc6;
+  font-family: "Roboto Condensed", sans-serif;
   text-decoration: none;
   transition: color ease-out 0.2s;
 }
 
 .card__title:hover {
-  color: #82aaff;
+  color: #73d0ff;
 }
 
 .card__creator {
   display: block;
-  color: #727272;
-  font-family: "PT Sans", sans-serif;
+  color: #707a8c;
+  font-family: "Roboto", sans-serif;
   font-weight: 200;
   line-height: 2rem;
 }
 
 .card__creator a {
-  color: #82aaff;
+  color: #73d0ff;
   text-decoration: none;
 }
 
 .card__detail {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   display: block;
-  color: #727272;
+  color: #707a8c;
   margin-top: 1rem;
   font-size: 1.125rem;
 }

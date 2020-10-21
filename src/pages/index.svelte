@@ -15,8 +15,7 @@
 
 :global(body) {
   height: 100%;
-  background-color: #212121;
-  background-image: url("/images/global/bg.svg");
+  background-color: #1f2430;
 }
 
 .container {
@@ -28,34 +27,25 @@
 
 .hero {
   display: flex;
+  position: relative;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 30rem;
+  min-height: 30rem;
+  overflow-x: hidden;
 }
 
 .hero__heading {
-  font-size: calc(4vw + 1rem);
-  font-weight: 800;
-  text-align: center;
-  color: #b0bec5;
-  font-family: "Fira Code", monospace;
+  width: 100%;
+  font-size: clamp(1rem, calc(4vw + 1.25rem), 5rem);
+  line-height: clamp(1.5rem, calc(4vw + 3rem), 8rem);
+  color: #cbccc6;
+  font-family: "Major Mono Display", monospace;
   margin-bottom: 2rem;
-}
-
-.some {
-  color: #82aaff;
-  text-decoration: none;
-}
-
-.every {
-  color: #f07178;
-  text-decoration: none;
-}
-
-.no {
-  color: #c792ea;
-  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.25);
+  text-align: center;
+  letter-spacing: 0.05em;
 }
 
 .comma {
@@ -63,50 +53,53 @@
 }
 
 .purple {
-  color: #c792ea;
+  color: #d4bfff;
+  text-decoration: none;
 }
 
 .red {
-  color: #f07178;
+  color: #f28779;
+  text-decoration: none;
 }
 
 .yellow {
-  color: #ffcb6b;
+  color: #ffd580;
 }
 
 .blue {
-  color: #82aaff;
+  color: #73d0ff;
+  text-decoration: none;
 }
 
 .hero__code {
   overflow-x: auto;
   max-width: 100%;
-  color: #b0bec5;
-  font-family: "Fira Code", monospace;
+  color: #cbccc6;
+  font-family: "Iosevka", monospace;
   font-size: 1.25rem;
-  background-color: #1a1a1a;
+  background-color: #101521;
   padding: 1rem;
-  border-radius: 0.5rem;
-  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.5);
+  border-radius: 0.25rem;
+  text-transform: lowercase;
 }
 
 .content {
   padding: 1rem;
-  background-color: #323232;
+  background-color: #101521;
   border-radius: 0.5rem;
   margin-bottom: 4rem;
 }
 
 .content__cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
   margin: 0 auto;
   gap: 1rem;
 }
 
 @media only screen and (min-width: 600px) {
-  .content__cards:hover + div {
-    filter: brightness(0.8);
+  :global(.content__cards:hover div) {
+    filter: brightness(0.95);
   }
 }
 </style>
@@ -114,42 +107,51 @@
 <svelte:head>
   <link
     rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap"
   />
   <link
     rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+  />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
   />
 </svelte:head>
 
 <div class="container">
   <div class="hero">
     <h1 class="hero__heading">
-      Three of <br />
+      Three of
+      <br />
       <a
         href="https://github.com/elianiva/three-of-something"
         target="_blank"
         rel="norel noreferrer "
-        class="some"
+        class="blue"
       >&lbrace;Some</a><span class="comma">,</span>
       <a
         href="https://github.com/nikarashihatsu/three-of-everything"
         target="_blank"
         rel="norel noreferrer "
-        class="every"
+        class="red"
       >Every</a><span class="comma">,</span>
       <a
         href="https://github.com/LynSotera/three-of-nothing"
         target="_blank"
         rel="norel noreferrer "
-        class="no"
-      >No&rbrace;</a>thing
+        class="purple"
+      >No&rbrace;</a>
+      <br />
+      thing
     </h1>
     <pre class="hero__code"><span class="purple">design</span>.<span
         class="red"
       >transform(</span><span class="yellow">result</span> ={'>'} <span
         class="yellow"
-      >result</span>.<span class="blue">code()</span><span class="red">)</span></pre>
+      >result</span>.<span class="blue">code()</span><span
+        class="red"
+      >)</span></pre>
   </div>
   <section class="content">
     <div class="content__cards">

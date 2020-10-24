@@ -45,9 +45,10 @@
       </button>
     </span>
     <p class="profile__desc">
-      {desc} Short bio. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-      Officia expedita fuga nesciunt vitae voluptatem aliquid, eos natus autem tempora
-      molestias.
+      {desc}
+      Short bio. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+      Officia expedita fuga nesciunt vitae voluptatem aliquid, eos natus autem
+      tempora molestias.
     </p>
   </div>
 </div>

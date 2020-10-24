@@ -96,7 +96,7 @@
   transition: all ease-out 0.2s;
 }
 
-.header__icon:hover{
+.header__icon:hover {
   filter: brightness(0.95);
 }
 
@@ -129,7 +129,7 @@
 }
 
 .main__exclusive {
-  margin-top: 1rem
+  margin-top: 1rem;
 }
 
 .exclusive__title {
@@ -138,8 +138,6 @@
   font-weight: 700;
   margin-bottom: 2rem;
 }
-
-.m {}
 </style>
 
 <div class="body">

@@ -309,7 +309,9 @@
     </nav>
     <aside class="sidebar">
       <p class="sidebar__quote">
-        This world is too smol, Isekai is where we supposed to live. <br /> ー RandomGuy2030
+        This world is too smol, Isekai is where we supposed to live.
+        <br />
+        ー RandomGuy2030
       </p>
       <div class="sidebar__icons">
         <!-- svelte-ignore a11y-invalid-attribute -->
@@ -329,7 +331,8 @@
     <main class="main">
       <div class="main__left">
         <h1 class="main__heading">
-          Isekai, World of <span class="highlight">Future</span>.
+          Isekai, World of
+          <span class="highlight">Future</span>.
         </h1>
         <p class="main__typography">
           This world is too small for you. Let me take you to the world of

@@ -110,8 +110,8 @@ main {
       <div class="header">
         <FoodIcon width="20rem" height="8rem" style="margin-left: 4rem" />
         <span class="header__title">
-          Promo Hari Ini <span class="header__subtitle">Perut kenyang, hati
-            senang</span>
+          Promo Hari Ini
+          <span class="header__subtitle">Perut kenyang, hati senang</span>
         </span>
       </div>
       <Pagination

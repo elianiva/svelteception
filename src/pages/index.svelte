@@ -33,15 +33,15 @@
   justify-content: center;
   min-height: 30rem;
   overflow-x: hidden;
+  margin-top: 4rem;
 }
 
 .hero__heading {
   width: 100%;
-  font-size: clamp(1rem, calc(4vw + 1.25rem), 5rem);
+  font-size: clamp(1rem, calc(4vw + 1.25rem), 4.5rem);
   line-height: clamp(1.5rem, calc(4vw + 3rem), 8rem);
   color: #cbccc6;
   font-family: "Major Mono Display", monospace;
-  margin-bottom: 2rem;
   text-transform: uppercase;
   text-shadow: 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.25);
   text-align: center;
@@ -81,6 +81,7 @@
   padding: 1rem;
   border-radius: 0.25rem;
   text-transform: lowercase;
+  margin: 4rem 0;
 }
 
 .content {
@@ -227,6 +228,14 @@ let designs = [
     designer: "Irvan",
     link: "https://dribbble.com/irvan_moses",
     src: "/images/irvan/cover.png"
+  },
+  {
+    title: "Cofeed",
+    type: "desktop",
+    path: "./ui/choirul",
+    designer: "Choirul",
+    link: "https://dribbble.com/choirulsyafril",
+    src: "/images/choirul/cover.png"
   }
 ]
 </script>

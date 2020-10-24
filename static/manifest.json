@@ -10,11 +10,6 @@
       "src": "/images/touch-icons/logo-192.png",
       "sizes": "192x192",
       "type": "image/png"
-    },
-    {
-      "src": "/images/touch-icons/logo-800.png",
-      "sizes": "800x800",
-      "type": "image/png"
     }
   ]
 }

@@ -2,4 +2,4 @@
 
 ![Preview](static/images/cover.png)
 
-Please go to the [website](https://three-of-something.vercel.app)
+Please go to the [website](https://three-of-something.elianiva.me)

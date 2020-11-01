@@ -29,7 +29,7 @@
   color: #ffffff;
   font-size: 2rem;
   font-family: "Poppins", sans-serif;
-  font-weight: 800;
+  font-weight: 700;
   z-index: 2;
 }
 

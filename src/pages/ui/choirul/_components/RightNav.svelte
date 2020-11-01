@@ -41,7 +41,7 @@
 }
 
 .rightnav__input::placeholder {
-  font-weight: 800;
+  font-weight: 700;
   font-family: "Poppins", sans-serif;
   color: #a5b6e2;
 }
@@ -133,7 +133,7 @@
 
 .activity__name {
   font-family: "Poppins", sans-serif;
-  font-weight: 800;
+  font-weight: 700;
   color: #253a73;
   line-height: 1.5rem;
 }
@@ -150,7 +150,7 @@
   display: flex;
   align-items: center;
   font-family: "Poppins", sans-serif;
-  font-weight: 800;
+  font-weight: 700;
   color: #a5b6e2;
   font-size: 0.75rem;
   gap: 0.25rem;
@@ -159,7 +159,7 @@
 .activity__all {
   text-align: center;
   font-family: "Poppins", sans-serif;
-  font-weight: 800;
+  font-weight: 700;
   display: block;
   margin-top: 2rem;
   color: #aa75ff;
@@ -178,7 +178,7 @@
   font-family: "Poppins", sans-serif;
   font-size: 0.75rem;
   color: #a5b7e2;
-  font-weight: 800;
+  font-weight: 700;
   text-decoration: none;
   margin: 0 0.25rem;
 }

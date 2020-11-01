@@ -24,7 +24,7 @@
   grid-column: 2/3;
   grid-row: 1/2;
   align-self: end;
-  font-weight: 800;
+  font-weight: 700;
   color: #253a73;
 }
 

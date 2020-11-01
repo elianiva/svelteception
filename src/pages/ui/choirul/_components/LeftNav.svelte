@@ -22,8 +22,8 @@
 
 .sidebar__title {
   font-family: "Poppins", sans-serif;
-  font-size: 1.5rem;
-  font-weight: 900;
+  font-size: 1.45rem;
+  font-weight: 700;
   color: #aa75ff;
   letter-spacing: 0.0625rem;
 }

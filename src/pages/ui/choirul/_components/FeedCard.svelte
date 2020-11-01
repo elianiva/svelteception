@@ -15,7 +15,7 @@
 }
 
 .detail__name {
-  font-weight: 800;
+  font-weight: 700;
   color: #253a73;
   font-size: 0.875rem;
   flex: 1;

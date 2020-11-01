@@ -11,7 +11,7 @@
 
 .feeds__title {
   flex: 1;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 1.125rem;
   color: #253a73;
 }

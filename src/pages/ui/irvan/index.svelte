@@ -1,6 +1,4 @@
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
-
 .body {
   min-height: 100vh;
   display: flex;
@@ -44,7 +42,7 @@
   position: relative;
 }
 
-:global(.main__search) {
+:global(.main__search-icon) {
   position: absolute;
   width: 1.5rem;
   height: 1.5rem;
@@ -147,7 +145,7 @@
       <div class="main__nav">
         <h1 class="main__title">Explore</h1>
         <div class="main__input">
-          <Search class="main__search" />
+          <Search class="main__search-icon" />
           <input type="text" placeholder="Find the book" />
         </div>
       </div>

@@ -1,6 +1,4 @@
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-
 .body {
   min-height: 100vh;
   background-color: #f7444e;

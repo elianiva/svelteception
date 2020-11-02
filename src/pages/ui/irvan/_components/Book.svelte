@@ -51,7 +51,7 @@
 
 .book__title {
   font-size: 1.125rem;
-  font-weight: 700;
+  font-weight: 400;
   color: #696969;
 }
 </style>

@@ -24,7 +24,7 @@
   bottom: 2rem;
 }
 
-.sidebar__icon.active {
+.sidebar__icon--active {
   padding: 1rem;
   color: #f7444e;
   background-color: #ffffff;
@@ -36,7 +36,7 @@
   <div class="sidebar__icon">
     <HomeIcon width="1.5rem" height="1.5rem" />
   </div>
-  <div class="sidebar__icon active">
+  <div class="sidebar__icon--active">
     <BookIcon width="1.5rem" height="1.5rem" />
   </div>
   <div class="sidebar__icon">

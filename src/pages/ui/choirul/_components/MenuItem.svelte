@@ -1,5 +1,5 @@
 <style>
-.item {
+.choirul-item {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -21,22 +21,17 @@
   box-shadow: 0 0.5rem 1rem rgba(170, 117, 255, 0.1);
 }
 
-:global(.active svg) {
+:global(.choirul-item.active svg) {
   color: #aa75ff;
 }
 
-:global(.item svg) {
+:global(.choirul-item svg) {
   width: 1.5rem;
   height: 1.5rem;
 }
 </style>
 
-{#if isActive}
-  <style>
-  </style>
-{/if}
-
-<div class="item" class:active="{isActive}">
+<div class="choirul-item" class:active="{isActive}">
   <svelte:component this="{icon}" />
   <span class="item__title">{title}</span>
 </div>

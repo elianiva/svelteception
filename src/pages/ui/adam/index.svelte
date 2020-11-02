@@ -1,6 +1,4 @@
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
-
 * {
   padding: 0;
   margin: 0;

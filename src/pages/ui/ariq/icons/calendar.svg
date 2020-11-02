@@ -1,0 +1,10 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="192" y="12" width="8" height="52" rx="4" stroke="currentColor" stroke-width="8"/>
+<rect x="52" y="12" width="8" height="52" rx="4" stroke="currentColor" stroke-width="8"/>
+<circle cx="176" cy="168" r="72" stroke="currentColor" stroke-width="16"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M32 54H214C222.837 54 230 61.1634 230 70V88H246V70C246 52.3269 231.673 38 214 38H32C14.3269 38 0 52.3269 0 70V206C0 223.673 14.3269 238 32 238H96V222H32C23.1634 222 16 214.837 16 206V70C16 61.1634 23.1634 54 32 54Z" fill="currentColor"/>
+<rect x="230" y="78" width="16" height="28" rx="8" fill="currentColor"/>
+<rect x="78" y="222" width="36" height="16" rx="8" fill="currentColor"/>
+<rect x="168" y="128" width="16" height="51" rx="8" fill="currentColor"/>
+<rect x="165" y="171.314" width="16" height="35" rx="8" transform="rotate(-45 165 171.314)" fill="currentColor"/>
+</svg>

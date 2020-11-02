@@ -236,6 +236,14 @@ let designs = [
     designer: "Choirul",
     link: "https://dribbble.com/choirulsyafril",
     src: "/images/choirul/cover.png"
+  },
+  {
+    title: "Wangkong",
+    type: "desktop",
+    path: "./ui/ariq",
+    designer: "Ariq",
+    link: "https://dribbble.com/ariqfr_",
+    src: "/images/ariq/cover.png"
   }
 ]
 </script>

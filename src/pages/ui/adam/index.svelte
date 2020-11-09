@@ -93,6 +93,7 @@
   display: flex;
   padding: 0.5rem 0;
   border-bottom: 0.125rem #555555 solid;
+  color: #ffffff;
 }
 
 .form__wrapper:last-child {

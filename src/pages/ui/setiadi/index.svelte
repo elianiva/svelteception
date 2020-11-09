@@ -2,10 +2,17 @@
 .body {
   min-height: 100vh;
   background-color: #f7444e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
-  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
+  position: relative;
+  box-shadow: 0 0.25rem 2rem rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 1400px;
+  max-height: 1200px;
   overflow: hidden;
 }
 

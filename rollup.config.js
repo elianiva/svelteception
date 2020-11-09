@@ -14,16 +14,15 @@ export const config = {
   rollupWrapper: rollup => {
     rollup.plugins = [...rollup.plugins, svelteSvg()]
   },
-  // rollupWrapper: rollup => rollup,
   svelteWrapper: svelte => {
     svelte.preprocess = [
       autoPreprocess({
         postcss: { plugins: [postcssImport()] },
-        defaults: { style: "postcss" }
-      })
+        defaults: { style: "postcss" },
+      }),
     ]
   },
-  swWrapper: worker => worker
+  swWrapper: worker => worker,
 }
 
 const configs = createRollupConfigs(config)

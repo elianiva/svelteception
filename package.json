@@ -12,8 +12,9 @@
     "deploy:vercel": "cd scripts/vercel && npm run deploy",
     "deploy:netlify": "cd scripts/netlify && npm run deploy",
     "rollup": "rollup -cw",
-    "nollup": "nollup -c --port 5000",
-    "routify": "routify"
+    "nollup": "nollup -c",
+    "routify": "routify",
+    "prettier": "prettier --write --plugin-search-dir=. './**/*.svelte'"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^13.0.0",
@@ -24,7 +25,7 @@
     "nollup": "^0.12.0",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.1.2",
-    "prettier-plugin-svelte": "^1.2.1",
+    "prettier-plugin-svelte": "^1.4.1",
     "rollup": "^2.18.1",
     "rollup-plugin-copy": "^3.3.0",
     "rollup-plugin-hot": "^0.0.31",

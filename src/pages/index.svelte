@@ -244,6 +244,14 @@ let designs = [
     designer: "Ariq",
     link: "https://dribbble.com/ariqfr_",
     src: "/images/ariq/cover.png"
+  },
+  {
+    title: "Bettafish",
+    type: "desktop",
+    path: "./ui/zidan",
+    designer: "Zidan",
+    link: "https://www.instagram.com/fiveui_/",
+    src: "/images/zidan/cover.png"
   }
 ]
 </script>

@@ -157,7 +157,7 @@
 
 .invitation__decline:hover,
 .invitation__join:hover {
-  filter: brightness(0.95)
+  filter: brightness(0.95);
 }
 
 .invitation__decline {

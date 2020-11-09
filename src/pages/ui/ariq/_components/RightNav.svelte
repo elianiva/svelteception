@@ -65,12 +65,10 @@
       <Down class="nav__down-icon" />
     </div>
   </div>
-  <Calendar month="December" year="2020"/>
+  <Calendar month="December" year="2020" />
   <div class="nav__stat">
     <div class="stat__header">
-      <span class="stat__title">
-        Meeting stats
-      </span>
+      <span class="stat__title"> Meeting stats </span>
       <span>• •</span>
     </div>
     <Graph />

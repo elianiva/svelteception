@@ -21,8 +21,8 @@
   right: 0;
   top: 0;
   height: 3rem;
-  border-bottom: 0.125rem #FF8345 solid;
-  background-color: rgba(255, 255, 255, 0.75)
+  border-bottom: 0.125rem #ff8345 solid;
+  background-color: rgba(255, 255, 255, 0.75);
 }
 
 .main__item {

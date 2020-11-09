@@ -93,10 +93,10 @@
   background-color: #ffffff;
 }
 .row__number.color-1::after {
-  background-color: #FBAEA6;
+  background-color: #fbaea6;
 }
 .row__number.color-2::after {
-  background-color: #73C7F3;
+  background-color: #73c7f3;
 }
 </style>
 

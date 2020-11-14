@@ -1,15 +1,13 @@
 <style>
-:global(body) {
-  overflow-y: hidden;
-}
-
 .body {
+  display: flex;
+  position: relative;
   background-color: #121212;
   min-height: 100vh;
   min-width: 1800px;
-  display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 .container {

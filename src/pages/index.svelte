@@ -252,6 +252,14 @@ let designs = [
     designer: "Zidan",
     link: "https://www.instagram.com/fiveui_/",
     src: "/images/zidan/cover.png"
+  },
+  {
+    title: "Casual Street",
+    type: "desktop",
+    path: "./ui/rahmat",
+    designer: "Rahmat",
+    link: "https://www.facebook.com/rahmat.rizalwan.52/",
+    src: "/images/rahmat/cover.png"
   }
 ]
 </script>

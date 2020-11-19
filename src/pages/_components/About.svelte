@@ -18,7 +18,7 @@
   padding: 2rem;
   border-radius: 0.25rem;
   max-width: 100%;
-  margin: 0 auto;
+  margin: 0 auto 2rem;
   font-size: 1.25rem;
   line-height: 2.5rem;
   color: #cbccc6;
@@ -41,26 +41,27 @@
     <p>
       What is this? Well, me and
       <a href="https://github.com/nikarashihatsu/">my friend</a>
-      are doing this challenge where we try to implement 3 designs each week
-      into code. Feel free to submit your design to us btw.
+      are doing this amazing challenge, where each one of us try to implement
+      three designs each week into code. You can also submit your design to us!
       <br />
+
       Why is it called
       <span class="highlight">Three of &lbrace;Some, Every&rbrace;thing</span>?
-      It came up by accident actually. The first time I make the repo for this
-      challenge on github, I don't know what to name it. So I was thinking,
-      because we implement 3 designs each week, I want the word "three" for its
-      name. Being me who isn't really good at naming stuff so I just went with
-      <span class="highlight">Three of Something</span>. Then a few moments
-      later, my friend made his repo called
-      <span class="highlight">Three of Everything</span>. If we combine those,
-      we'll get
+      It came up by accident actually. When I created the project repo, I've
+      named it Three Of Something, since we are implementing three designs, then
+      at the same time my friend creates another repo and called Three Of
+      Everything. So we agreed why not just combine those :D We end up with
       <span class="highlight">Three of &lbrace;Some,Every&rbrace;thing</span>.
-      And yes, that's BASH expansion braces.
+      &lt;And yes, that's BASH expansion braces.&rt;
       <br />
-      UPDATE: One of
-      <a href="https://github.com/LynSotera/">my friend</a>
-      joined, and now it became
-      <span class="highlight">Three of &lbrace;Some,Every,No&rbrace;thing</span>
+      <br />
+      <strong>UPDATE:</strong> One of my friend joined, and now it became Three of
+      <span class="highlight">Three of &lbrace;Some, Every, No&rbace;thing</span>
+      <br />
+      <strong>ANOTHER UPDATE:</strong> I didn't have much time now so I just decided to implement one
+      design each week.
+      <a href="https://elianiva.me/project/three-of-something">Read this</a>
+      if you want to know more about the project current state :)
     </p>
   </div>
 </section>

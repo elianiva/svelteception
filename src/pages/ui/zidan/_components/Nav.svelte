@@ -14,7 +14,7 @@
 }
 
 .nav__logo {
-  color: #DDDCDD;
+  color: #dddcdd;
 }
 
 .nav__items {
@@ -37,7 +37,7 @@
   left: 0.5rem;
   right: 0.5rem;
   height: 0.125rem;
-  background-color: #DDDCDD;
+  background-color: #dddcdd;
   transform: scale(0);
   transition: transform ease-out 0.2s;
 }
@@ -47,7 +47,7 @@
 }
 
 .active {
-  color: #DDDCDD;
+  color: #dddcdd;
   font-weight: 600;
 }
 
@@ -63,7 +63,7 @@
 
 .nav__hamburger div {
   height: 100%;
-  background-color: #DDDCDD;
+  background-color: #dddcdd;
 }
 </style>
 

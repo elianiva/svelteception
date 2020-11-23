@@ -23,6 +23,7 @@
   margin: 0 auto;
   padding: 0 1rem;
   height: 100%;
+  padding-bottom: 4rem;
 }
 
 .hero {
@@ -260,6 +261,14 @@ let designs = [
     designer: "Rahmat",
     link: "https://www.facebook.com/rahmat.rizalwan.52/",
     src: "/images/rahmat/cover.png"
+  },
+  {
+    title: "Customer Desk Management",
+    type: "desktop",
+    path: "./ui/febrian",
+    designer: "Febrian",
+    link: "https://dribbble.com/RyanFebrian21",
+    src: "/images/febrian/cover.jpg"
   }
 ]
 </script>

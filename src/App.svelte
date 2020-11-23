@@ -18,7 +18,7 @@
 }
 </style>
 
-<Router {routes} />
+<Router routes="{routes}" />
 
 <script>
 import { Router } from "@sveltech/routify"

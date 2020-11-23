@@ -190,16 +190,16 @@
 </style>
 
 <div class="body">
-  <div class="container" bind:this={container}>
+  <div class="container" bind:this="{container}">
     <Navbar />
     <div class="main">
       <span class="main__subtitle">BETTAFISH</span>
       <div class="main__wrapper">
-        <div class="circle" />
+        <div class="circle"></div>
         <h1 class="main__title">FIS</h1><span
           class="main__title special"
         >H</span>
-        <div class="circle-alt" />
+        <div class="circle-alt"></div>
       </div>
       <img class="head" src="/images/zidan/head.png" alt="head" />
       <img class="tail" src="/images/zidan/tail.png" alt="tail" />
@@ -207,7 +207,7 @@
     <div class="scroll">
       <Up />
       <div class="scroll__bar">
-        <div class="scroll__thumb" />
+        <div class="scroll__thumb"></div>
       </div>
       <Down />
     </div>

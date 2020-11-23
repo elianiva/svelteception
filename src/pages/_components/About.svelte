@@ -1,6 +1,5 @@
 <style>
 .about {
-  margin-bottom: 4rem;
   font-family: "Major Mono Display", monospace;
 }
 
@@ -55,13 +54,13 @@
       &lt;And yes, that's BASH expansion braces.&rt;
       <br />
       <br />
-      <strong>UPDATE:</strong> One of my friend joined, and now it became Three of
+      <strong>UPDATE:</strong>
+      One of my friend joined, and now it became Three of
       <span class="highlight">Three of &lbrace;Some, Every, No&rbace;thing</span>
       <br />
-      <strong>ANOTHER UPDATE:</strong> I didn't have much time now so I just decided to implement one
-      design each week.
-      <a href="https://elianiva.me/project/three-of-something">Read this</a>
-      if you want to know more about the project current state :)
+      <strong>ANOTHER UPDATE:</strong>
+      I didn't have much time now so I just decided to implement one design each
+      week.
     </p>
   </div>
 </section>

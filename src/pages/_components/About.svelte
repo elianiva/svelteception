@@ -55,8 +55,8 @@
       <br />
       <br />
       <strong>UPDATE:</strong>
-      One of my friend joined, and now it became Three of
-      <span class="highlight">Three of &lbrace;Some, Every, No&rbace;thing</span>
+      One of my friend joined, and now it became
+      <span class="highlight">Three of &lbrace;Some, Every, No&rbrace;thing</span>
       <br />
       <strong>ANOTHER UPDATE:</strong>
       I didn't have much time now so I just decided to implement one design each

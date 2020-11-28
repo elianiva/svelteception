@@ -273,7 +273,7 @@ let designs = [
   {
     title: "Yumemi Riamu",
     type: "desktop",
-    path: "./ui/rahmat",
+    path: "./ui/rahmat-2",
     designer: "Rahmat",
     link: "https://www.facebook.com/rahmat.rizalwan.52/",
     src: "/images/rahmat/cover-2.jpg"

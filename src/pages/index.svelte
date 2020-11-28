@@ -276,7 +276,7 @@ let designs = [
     path: "./ui/rahmat",
     designer: "Rahmat",
     link: "https://www.facebook.com/rahmat.rizalwan.52/",
-    src: "/images/rahmat/cover-2.png"
+    src: "/images/rahmat/cover-2.jpg"
   },
 ]
 </script>

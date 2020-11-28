@@ -51,7 +51,7 @@
       at the same time my friend creates another repo and called Three Of
       Everything. So we agreed why not just combine those :D We end up with
       <span class="highlight">Three of &lbrace;Some,Every&rbrace;thing</span>.
-      &lt;And yes, that's BASH expansion braces.&rt;
+      &lt;And yes, that's BASH expansion braces.&gt;
       <br />
       <br />
       <strong>UPDATE:</strong>

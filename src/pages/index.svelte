@@ -15,11 +15,20 @@
 
 :global(body) {
   height: 100%;
-  background-color: #1f2430;
+  background-color: #171c26;
+}
+
+:global(html)::-webkit-scrollbar-thumb {
+  background-color: #3b465a;
+}
+
+:global(html)::-webkit-scrollbar {
+  background-color: #20263A;
+  width: 0.75rem;
 }
 
 .container {
-  max-width: 1080px;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 0 1rem;
   height: 100%;
@@ -31,15 +40,15 @@
   position: relative;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  min-height: 30rem;
   overflow-x: hidden;
-  margin-top: 4rem;
+  background-color: #20263A;
+  min-height: 32rem;
 }
 
 .hero__heading {
   width: 100%;
-  font-size: clamp(1rem, calc(4vw + 1.25rem), 4.5rem);
+  margin-top: 4rem;
+  font-size: clamp(1rem, calc(2vw + 1.5rem), 3rem);
   line-height: clamp(1.5rem, calc(4vw + 3rem), 8rem);
   color: #cbccc6;
   font-family: "Major Mono Display", monospace;
@@ -47,10 +56,6 @@
   text-shadow: 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.25);
   text-align: center;
   letter-spacing: 0.05em;
-}
-
-.comma {
-  color: #616161;
 }
 
 .purple {
@@ -73,6 +78,8 @@
 }
 
 .hero__code {
+  position: relative;
+  z-index: 10;
   overflow-x: auto;
   max-width: 100%;
   color: #cbccc6;
@@ -80,16 +87,16 @@
   font-size: 1.25rem;
   background-color: #101521;
   padding: 1rem;
-  border-radius: 0.25rem;
   text-transform: lowercase;
-  margin: 4rem 0;
+  margin: 2rem 0;
 }
 
 .content {
+  position: relative;
+  z-index: 5;
   padding: 1rem;
-  background-color: #101521;
-  border-radius: 0.5rem;
   margin-bottom: 4rem;
+  margin-top: -12rem;
 }
 
 .content__cards {
@@ -99,9 +106,16 @@
   gap: 1rem;
 }
 
+.break {
+  display: block;
+}
+
 @media only screen and (min-width: 600px) {
   :global(.content__cards:hover div) {
     filter: brightness(0.95);
+  }
+  .break {
+    display: none;
   }
 }
 </style>
@@ -121,50 +135,36 @@
   />
 </svelte:head>
 
+<div class="hero">
+  <h1 class="hero__heading">
+    S
+    <span class="red">V</span>
+    E L T E
+    <br class="break" />
+    C E
+    <span class="blue">P</span>
+    T I O
+    <span class="purple">N</span>
+  </h1>
+  <pre class="hero__code"><span class="purple">design</span>.<span
+      class="red"
+    >transform(</span><span class="yellow">result</span> ={'>'} <span
+      class="yellow"
+    >result</span>.<span class="blue">code()</span><span
+      class="red"
+    >)</span></pre>
+</div>
 <div class="container">
-  <div class="hero">
-    <h1 class="hero__heading">
-      Three of
-      <br />
-      <a
-        href="https://github.com/elianiva/three-of-something"
-        target="_blank"
-        rel="norel noreferrer "
-        class="blue"
-      >&lbrace;Some</a><span class="comma">,</span>
-      <a
-        href="https://github.com/nikarashihatsu/three-of-everything"
-        target="_blank"
-        rel="norel noreferrer "
-        class="red"
-      >Every</a><span class="comma">,</span>
-      <a
-        href="https://github.com/LynSotera/three-of-nothing"
-        target="_blank"
-        rel="norel noreferrer "
-        class="purple"
-      >No&rbrace;</a>
-      <br />
-      thing
-    </h1>
-    <pre class="hero__code"><span class="purple">design</span>.<span
-        class="red"
-      >transform(</span><span class="yellow">result</span> ={'>'} <span
-        class="yellow"
-      >result</span>.<span class="blue">code()</span><span
-        class="red"
-      >)</span></pre>
-  </div>
   <section class="content">
     <div class="content__cards">
       {#each designs as design}
         <Card
-          title="{design.title}"
-          type="{design.type}"
-          path="{design.path}"
-          designer="{design.designer}"
-          link="{design.link}"
-          src="{design.src}"
+          title={design.title}
+          type={design.type}
+          path={design.path}
+          designer={design.designer}
+          link={design.link}
+          src={design.src}
         />
       {/each}
     </div>
@@ -188,7 +188,7 @@ let designs = [
     path: "./ui/adam",
     designer: "Adam",
     link: "https://www.facebook.com/erst.madatayadih",
-    src: "/images/adam/cover.webp"
+    src: "/images/adam/cover.webp",
   },
   {
     title: "Arceru",
@@ -196,7 +196,7 @@ let designs = [
     path: "./ui/aghits",
     designer: "Aghits",
     link: "https://github.com/nikarashihatsu",
-    src: "/images/aghits/cover.webp"
+    src: "/images/aghits/cover.webp",
   },
   {
     title: "Isekai",
@@ -204,7 +204,7 @@ let designs = [
     path: "./ui/dicha",
     designer: "Dicha",
     link: "https://github.com/elianiva",
-    src: "/images/dicha/cover.webp"
+    src: "/images/dicha/cover.webp",
   },
   {
     title: "MyKantin",
@@ -212,7 +212,7 @@ let designs = [
     path: "./ui/rizqi",
     designer: "Rizqi",
     link: "https://dribbble.com/sirizqi",
-    src: "/images/rizqi/cover.webp"
+    src: "/images/rizqi/cover.webp",
   },
   {
     title: "Online Course",
@@ -220,7 +220,7 @@ let designs = [
     path: "./ui/setiadi",
     designer: "Setiadi",
     link: "https://dribbble.com/setiadi_p",
-    src: "/images/setiadi/cover.webp"
+    src: "/images/setiadi/cover.webp",
   },
   {
     title: "Book Store",
@@ -228,7 +228,7 @@ let designs = [
     path: "./ui/irvan",
     designer: "Irvan",
     link: "https://dribbble.com/irvan_moses",
-    src: "/images/irvan/cover.webp"
+    src: "/images/irvan/cover.webp",
   },
   {
     title: "Cofeed",
@@ -236,7 +236,7 @@ let designs = [
     path: "./ui/choirul",
     designer: "Choirul",
     link: "https://dribbble.com/choirulsyafril",
-    src: "/images/choirul/cover.webp"
+    src: "/images/choirul/cover.webp",
   },
   {
     title: "Wangkong",
@@ -244,7 +244,7 @@ let designs = [
     path: "./ui/ariq",
     designer: "Ariq",
     link: "https://dribbble.com/ariqfr_",
-    src: "/images/ariq/cover.webp"
+    src: "/images/ariq/cover.webp",
   },
   {
     title: "Bettafish",
@@ -252,7 +252,7 @@ let designs = [
     path: "./ui/zidan",
     designer: "Zidan",
     link: "https://www.instagram.com/fiveui_/",
-    src: "/images/zidan/cover.webp"
+    src: "/images/zidan/cover.webp",
   },
   {
     title: "Casual Street",
@@ -260,7 +260,7 @@ let designs = [
     path: "./ui/rahmat",
     designer: "Rahmat",
     link: "https://www.facebook.com/rahmat.rizalwan.52/",
-    src: "/images/rahmat/cover.webp"
+    src: "/images/rahmat/cover.webp",
   },
   {
     title: "Customer Desk Management",
@@ -268,7 +268,7 @@ let designs = [
     path: "./ui/febrian",
     designer: "Febrian",
     link: "https://dribbble.com/RyanFebrian21",
-    src: "/images/febrian/cover.webp"
+    src: "/images/febrian/cover.webp",
   },
   {
     title: "Yumemi Riamu",
@@ -276,7 +276,7 @@ let designs = [
     path: "./ui/rahmat-2",
     designer: "Rahmat",
     link: "https://www.facebook.com/rahmat.rizalwan.52/",
-    src: "/images/rahmat/cover-2.webp"
+    src: "/images/rahmat/cover-2.webp",
   },
   {
     title: "Belajar App",
@@ -284,7 +284,7 @@ let designs = [
     path: "./ui/fakih",
     designer: "Fakih",
     link: "https://dribbble.com/fakaa",
-    src: "/images/fakih/cover.webp"
-  }
+    src: "/images/fakih/cover.webp",
+  },
 ]
 </script>

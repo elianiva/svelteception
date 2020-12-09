@@ -3,16 +3,18 @@
   display: flex;
   gap: 0.5rem;
   flex-direction: column;
-  border-radius: 0.25rem;
   overflow: hidden;
-  background-color: #1f2430;
+  background-color: #171C26;
   transition: all ease-out 0.2s;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border: 0.0625rem #3b465a solid;
 }
 
 .card__img {
   height: 10rem;
   object-fit: cover;
   object-position: top;
+  filter: brightness(0.8);
 }
 
 .card__content {
@@ -62,7 +64,7 @@
 @media only screen and (min-width: 600px) {
   .card:hover {
     transform: translateY(-0.25rem);
-    filter: brightness(1) !important;
+    filter: brightness(1.2) !important;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
   }
 }

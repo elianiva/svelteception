@@ -121,6 +121,7 @@
   />
 </svelte:head>
 
+
 <div class="container">
   <div class="hero">
     <h1 class="hero__heading">
@@ -277,6 +278,14 @@ let designs = [
     designer: "Rahmat",
     link: "https://www.facebook.com/rahmat.rizalwan.52/",
     src: "/images/rahmat/cover-2.webp",
+  },
+  {
+    title: "Belajar App",
+    type: "desktop",
+    path: "./ui/fakih",
+    designer: "Fakih",
+    link: "https://dribbble.com/fakaa",
+    src: "/images/fakih/cover.webp",
   },
 ]
 </script>

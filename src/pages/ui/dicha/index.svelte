@@ -362,6 +362,6 @@ const images = {
 
 import { metatags } from "@sveltech/routify"
 
-metatags.title = "Dicha | Three of Something"
+metatags.title = "Dicha | Svelteception"
 metatags.description = "Isekai landing page UI by Dicha"
 </script>

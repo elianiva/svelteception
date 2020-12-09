@@ -183,7 +183,6 @@
 .graph__line:nth-last-child(3)::before {
   content: "90";
 }
-
 </style>
 
 <div class="graph">
@@ -198,7 +197,7 @@
     </div>
   </div>
   <div class="graph__list">
-    <div />
+    <div></div>
     <div class="list__items">
       <span class="list__item">Daily Tasks</span>
       <span class="list__item">Practicum Exams</span>
@@ -209,14 +208,14 @@
     {#each data as { name, heights }}
       <div class="graph__block">
         {#each heights as height}
-          <div class="block__item" style="height: {height * 2}rem;" />
+          <div class="block__item" style="height: {height * 2}rem;"></div>
         {/each}
         <span class="block__label">{name}</span>
       </div>
     {/each}
-    <div class="graph__line" />
-    <div class="graph__line" />
-    <div class="graph__line" />
+    <div class="graph__line"></div>
+    <div class="graph__line"></div>
+    <div class="graph__line"></div>
   </div>
 </div>
 
@@ -228,6 +227,6 @@ const data = [
   { name: "sem 2", heights: [3.5, 3.8, 3.8] },
   { name: "sem 3", heights: [4.2, 4.5, 3.5] },
   { name: "sem 4", heights: [3.7, 3.6, 3.5] },
-  { name: "sem 5", heights: [3.8, 4.2, 3.8] },
+  { name: "sem 5", heights: [3.8, 4.2, 3.8] }
 ]
 </script>

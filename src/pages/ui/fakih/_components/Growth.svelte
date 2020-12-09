@@ -60,16 +60,15 @@
 .month__name {
   flex: 1;
 }
-
 </style>
 
 <div class="growth">
   <span class="growth__title">Growth</span>
   <div class="growth__chart">
     <Line class="icon" />
-    <div class="growth__line" />
-    <div class="growth__line" />
-    <div class="growth__line" />
+    <div class="growth__line"></div>
+    <div class="growth__line"></div>
+    <div class="growth__line"></div>
   </div>
   <div class="growth__month">
     <span class="month__name">Jan</span>

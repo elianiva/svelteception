@@ -84,7 +84,6 @@
   transform: rotateZ(-90deg);
 }
 
-
 .side__item :global(.icon) {
   width: 1.5rem;
   height: 1.5rem;
@@ -140,8 +139,8 @@
   align-items: center;
   justify-content: center;
   color: #ffffff;
-  background-color: #6A4BFF;
-  border: 0.5rem solid #D4DEF5;
+  background-color: #6a4bff;
+  border: 0.5rem solid #d4def5;
 }
 
 .ad__goto :global(.icon) {
@@ -191,12 +190,12 @@
   </div>
 
   <div class="ad">
-  <div class="ad__goto">
-    <Right class="icon"/>
-  </div>
+    <div class="ad__goto">
+      <Right class="icon" />
+    </div>
     <span class="ad__title">Download Apps <br /> version here!</span>
     <div class="ad__saly-wrapper">
-      <img class="ad__saly" src="/images/fakih/saly.png" alt="">
+      <img class="ad__saly" src="/images/fakih/saly.png" alt="" />
     </div>
   </div>
 </aside>

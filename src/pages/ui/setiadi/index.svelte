@@ -283,7 +283,7 @@ import CourseItem from "./_components/CourseItem.svelte"
 import Assignment from "./_components/Assignment.svelte"
 import { metatags } from "@sveltech/routify"
 
-metatags.title = "Setiadi | Three of Something"
+metatags.title = "Setiadi | Svelteception"
 metatags.description = "Online course app UI by Rizqi"
 
 const assignments = [

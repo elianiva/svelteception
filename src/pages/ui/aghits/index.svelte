@@ -101,6 +101,6 @@ import Rightnav from "./_components/Rightnav.svelte"
 
 import { metatags } from "@sveltech/routify"
 
-metatags.title = "Aghits | Three of Something"
+metatags.title = "Aghits | Svelteception"
 metatags.description = "Arceru UI by Adam"
 </script>

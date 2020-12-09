@@ -1,5 +1,5 @@
-# Three of Something
+# Svelteception
 
 ![Preview](static/images/cover.png)
 
-Please go to the [website](https://three-of-something.elianiva.me)
+Please go to the [website](https://svelteception.elianiva.me)

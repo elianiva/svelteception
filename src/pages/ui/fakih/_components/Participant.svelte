@@ -69,7 +69,7 @@
 
 .part__slider {
   position: absolute;
-  background-color: #A4B6E1;
+  background-color: #a4b6e1;
   width: 0.5rem;
   right: 1rem;
   top: 7.5rem;
@@ -85,9 +85,8 @@
   top: 0;
   height: 3rem;
   border-radius: 0.5rem;
-  background-color: #6A4BFF;
+  background-color: #6a4bff;
 }
-
 </style>
 
 <div class="part">
@@ -113,7 +112,7 @@
       <span class="people__name">Anika Septimus</span>
     </div>
   </div>
-  <div class="part__slider" />
+  <div class="part__slider"></div>
 </div>
 
 <script>

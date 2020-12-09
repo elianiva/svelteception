@@ -31,9 +31,8 @@
 import LeftNav from "./_components/LeftNav.svelte"
 import Main from "./_components/Main.svelte"
 import RightNav from "./_components/RightNav.svelte"
-
 import { metatags } from "@sveltech/routify"
 
-metatags.title = "Ariq | Three of Something"
+metatags.title = "Ariq | Svelteception"
 metatags.description = "Wangkong UI by Ariq"
 </script>

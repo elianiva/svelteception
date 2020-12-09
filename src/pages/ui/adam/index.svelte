@@ -191,6 +191,6 @@ import RecentIcon from "./icons/recent.svg"
 
 import { metatags } from "@sveltech/routify"
 
-metatags.title = "Adam | Three of Something"
+metatags.title = "Adam | Svelteception"
 metatags.description = "Malam Bujang UI by Adam"
 </script>

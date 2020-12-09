@@ -112,7 +112,11 @@
   left: -2rem;
   top: 5rem;
   bottom: -5rem;
-  background-image: linear-gradient(to top right, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.2) 80%);
+  background-image: linear-gradient(
+    to top right,
+    rgba(0, 0, 0, 0) 50%,
+    rgba(255, 255, 255, 0.2) 80%
+  );
   transform: rotateZ(-20deg);
 }
 
@@ -152,8 +156,12 @@
       <Growth />
       <Participant />
       <div class="report">
-        <h1 class="report__title">Download Your <br /> Statistical Report Here</h1>
-        <Download class="icon"/>
+        <h1 class="report__title">
+          Download Your
+          <br />
+          Statistical Report Here
+        </h1>
+        <Download class="icon" />
       </div>
     </main>
   </div>
@@ -170,4 +178,8 @@ import Pie from "./_components/Pie.svelte"
 import Awards from "./_components/Awards.svelte"
 import Growth from "./_components/Growth.svelte"
 import Participant from "./_components/Participant.svelte"
+import { metatags } from "@sveltech/routify"
+
+metatags.title = "Fakih | Svelteception"
+metatags.description = "Belajar App by Fakih"
 </script>

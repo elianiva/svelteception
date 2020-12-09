@@ -61,6 +61,11 @@
       <strong>ANOTHER UPDATE:</strong>
       I didn't have much time now so I just decided to implement one design each
       week.
+      <br />
+      <strong>YET ANOTHER UPDATE:</strong>
+      I changed the name to
+      <strong>Svelteception</strong>
+      because apparently Three Of Something is an Australian brand :p
     </p>
   </div>
 </section>

@@ -48,7 +48,7 @@
   width: 100%;
   height: 1rem;
   border-radius: 0.5rem;
-  background-color: #EEFFAA;
+  background-color: #eeffaa;
   margin-top: 1rem;
 }
 
@@ -60,7 +60,7 @@
   bottom: 0;
   width: 80%;
   border-radius: 0.5rem;
-  background-color: #FCD200;
+  background-color: #fcd200;
 }
 
 .content__bar::after {
@@ -68,12 +68,11 @@
   position: absolute;
   right: 0;
   bottom: -1.5rem;
-  color: #8971FF;
+  color: #8971ff;
   font-size: 0.625rem;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
-
 </style>
 
 <div class="awards">
@@ -87,7 +86,7 @@
         <br />
         you're at level 80
       </span>
-      <div class="content__bar" />
+      <div class="content__bar"></div>
     </div>
   </div>
 </div>

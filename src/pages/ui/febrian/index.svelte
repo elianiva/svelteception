@@ -39,12 +39,13 @@
 </div>
 
 <script>
-import { metatags } from "@sveltech/routify"
 import LeftNav from "./_components/LeftNav.svelte"
 import TopNav from "./_components/TopNav.svelte"
 import RightNav from "./_components/RightNav.svelte"
 import ChatList from "./_components/ChatList.svelte"
 import Chat from "./_components/Chat.svelte"
+import { metatags } from "@sveltech/routify"
 
-metatags.title = "Febrian | Three of Something"
+metatags.title = "Febrian | Svelteception"
+metatags.description = "Customer Desk Management by Febrian"
 </script>

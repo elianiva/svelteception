@@ -687,3 +687,9 @@
     </div>
   </div>
 </div>
+
+<script>
+import { metatags } from "@sveltech/routify"
+metatags.title = "Rahmat | Svelteception"
+metatags.description = "Casual Street by Rahmat"
+</script>

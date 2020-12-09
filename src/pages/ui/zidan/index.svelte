@@ -243,6 +243,6 @@ import { metatags } from "@sveltech/routify"
 
 let container
 
-metatags.title = "Zidan | Three of Something"
+metatags.title = "Zidan | Svelteception"
 metatags.description = "Bettafish UI by Adam"
 </script>

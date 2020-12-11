@@ -10,7 +10,7 @@
 .container {
   width: 100%;
   display: grid;
-  grid-template-columns: 14rem 2fr;
+  grid-template-columns: 14rem 1fr;
   gap: 1.25rem;
   max-width: 1400px;
   max-height: 1200px;

@@ -4,7 +4,7 @@
   gap: 0.5rem;
   flex-direction: column;
   overflow: hidden;
-  background-color: #171C26;
+  background-color: #171c26;
   transition: all ease-out 0.2s;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   border: 0.0625rem #3b465a solid;
@@ -14,7 +14,7 @@
   height: 10rem;
   object-fit: cover;
   object-position: top;
-  filter: brightness(0.92);
+  filter: brightness(0.96);
 }
 
 .card__content {

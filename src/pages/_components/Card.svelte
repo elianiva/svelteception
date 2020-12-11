@@ -14,7 +14,7 @@
   height: 10rem;
   object-fit: cover;
   object-position: top;
-  filter: brightness(0.8);
+  filter: brightness(0.92);
 }
 
 .card__content {

@@ -23,7 +23,7 @@
 }
 
 :global(html)::-webkit-scrollbar {
-  background-color: #20263A;
+  background-color: #20263a;
   width: 0.75rem;
 }
 
@@ -41,7 +41,7 @@
   flex-direction: column;
   align-items: center;
   overflow-x: hidden;
-  background-color: #20263A;
+  background-color: #20263a;
   min-height: 32rem;
 }
 
@@ -159,12 +159,12 @@
     <div class="content__cards">
       {#each designs as design}
         <Card
-          title={design.title}
-          type={design.type}
-          path={design.path}
-          designer={design.designer}
-          link={design.link}
-          src={design.src}
+          title="{design.title}"
+          type="{design.type}"
+          path="{design.path}"
+          designer="{design.designer}"
+          link="{design.link}"
+          src="{design.src}"
         />
       {/each}
     </div>
@@ -188,7 +188,7 @@ let designs = [
     path: "./ui/adam",
     designer: "Adam",
     link: "https://www.facebook.com/erst.madatayadih",
-    src: "/images/adam/cover.webp",
+    src: "/images/adam/cover.webp"
   },
   {
     title: "Arceru",
@@ -196,7 +196,7 @@ let designs = [
     path: "./ui/aghits",
     designer: "Aghits",
     link: "https://github.com/nikarashihatsu",
-    src: "/images/aghits/cover.webp",
+    src: "/images/aghits/cover.webp"
   },
   {
     title: "Isekai",
@@ -204,7 +204,7 @@ let designs = [
     path: "./ui/dicha",
     designer: "Dicha",
     link: "https://github.com/elianiva",
-    src: "/images/dicha/cover.webp",
+    src: "/images/dicha/cover.webp"
   },
   {
     title: "MyKantin",
@@ -212,7 +212,7 @@ let designs = [
     path: "./ui/rizqi",
     designer: "Rizqi",
     link: "https://dribbble.com/sirizqi",
-    src: "/images/rizqi/cover.webp",
+    src: "/images/rizqi/cover.webp"
   },
   {
     title: "Online Course",
@@ -220,7 +220,7 @@ let designs = [
     path: "./ui/setiadi",
     designer: "Setiadi",
     link: "https://dribbble.com/setiadi_p",
-    src: "/images/setiadi/cover.webp",
+    src: "/images/setiadi/cover.webp"
   },
   {
     title: "Book Store",
@@ -228,7 +228,7 @@ let designs = [
     path: "./ui/irvan",
     designer: "Irvan",
     link: "https://dribbble.com/irvan_moses",
-    src: "/images/irvan/cover.webp",
+    src: "/images/irvan/cover.webp"
   },
   {
     title: "Cofeed",
@@ -236,7 +236,7 @@ let designs = [
     path: "./ui/choirul",
     designer: "Choirul",
     link: "https://dribbble.com/choirulsyafril",
-    src: "/images/choirul/cover.webp",
+    src: "/images/choirul/cover.webp"
   },
   {
     title: "Wangkong",
@@ -244,7 +244,7 @@ let designs = [
     path: "./ui/ariq",
     designer: "Ariq",
     link: "https://dribbble.com/ariqfr_",
-    src: "/images/ariq/cover.webp",
+    src: "/images/ariq/cover.webp"
   },
   {
     title: "Bettafish",
@@ -252,7 +252,7 @@ let designs = [
     path: "./ui/zidan",
     designer: "Zidan",
     link: "https://www.instagram.com/fiveui_/",
-    src: "/images/zidan/cover.webp",
+    src: "/images/zidan/cover.webp"
   },
   {
     title: "Casual Street",
@@ -260,7 +260,7 @@ let designs = [
     path: "./ui/rahmat",
     designer: "Rahmat",
     link: "https://www.facebook.com/rahmat.rizalwan.52/",
-    src: "/images/rahmat/cover.webp",
+    src: "/images/rahmat/cover.webp"
   },
   {
     title: "Customer Desk Management",
@@ -268,7 +268,7 @@ let designs = [
     path: "./ui/febrian",
     designer: "Febrian",
     link: "https://dribbble.com/RyanFebrian21",
-    src: "/images/febrian/cover.webp",
+    src: "/images/febrian/cover.webp"
   },
   {
     title: "Yumemi Riamu",
@@ -276,7 +276,7 @@ let designs = [
     path: "./ui/rahmat-2",
     designer: "Rahmat",
     link: "https://www.facebook.com/rahmat.rizalwan.52/",
-    src: "/images/rahmat/cover-2.webp",
+    src: "/images/rahmat/cover-2.webp"
   },
   {
     title: "Belajar App",
@@ -284,7 +284,15 @@ let designs = [
     path: "./ui/fakih",
     designer: "Fakih",
     link: "https://dribbble.com/fakaa",
-    src: "/images/fakih/cover.webp",
+    src: "/images/fakih/cover.webp"
   },
+  {
+    title: "Task Management Dashboard",
+    type: "desktop",
+    path: "./ui/manoj",
+    designer: "Manoj",
+    link: "https://dribbble.com/manojrajput",
+    src: "/images/manoj/cover.webp"
+  }
 ]
 </script>

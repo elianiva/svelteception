@@ -64,7 +64,7 @@
 @media only screen and (min-width: 600px) {
   .card:hover {
     transform: translateY(-0.25rem);
-    filter: brightness(1.2) !important;
+    filter: brightness(1) !important;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
   }
 }

@@ -12,6 +12,7 @@ devDependencies:
   cross-env: 7.0.3
   del: 5.1.0
   eslint: 7.16.0
+  eslint-plugin-svelte3: 3.0.0_eslint@7.16.0+svelte@3.31.0
   nollup: 0.12.3_rollup@2.35.1
   npm-run-all: 4.1.5
   prettier: 2.2.1
@@ -2372,6 +2373,18 @@ packages:
       source-map: 0.6.1
     resolution:
       integrity: sha512-qFcX0XJkdg+PB3xjZZG/wKSuT1PnQWx57+TVSjIMmILd2yC/6ByYElPwJnslDsuWuSAp4AwJGumarAAmJch5Kw==
+  /eslint-plugin-svelte3/3.0.0_eslint@7.16.0+svelte@3.31.0:
+    dependencies:
+      eslint: 7.16.0
+      svelte: 3.31.0
+    dev: true
+    engines:
+      node: '>=10'
+    peerDependencies:
+      eslint: '>=6.0.0'
+      svelte: ^3.2.0
+    resolution:
+      integrity: sha512-8IZAT1Qkk1X6z+zLGeIF4OYYhYodr5iUoCczovEAbtzf2VOoyrS1rk66SkYknJKjPh8rwFErjCpN4dFa2Bmbng==
   /eslint-scope/5.1.1:
     dependencies:
       esrecurse: 4.3.0
@@ -6412,6 +6425,7 @@ specifiers:
   cross-env: ^7.0.3
   del: ^5.1.0
   eslint: ^7.16.0
+  eslint-plugin-svelte3: ^3.0.0
   nollup: ^0.12.3
   npm-run-all: ^4.1.5
   postcss-import: ^12.0.1

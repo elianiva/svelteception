@@ -293,6 +293,14 @@ let designs = [
     designer: "Manoj",
     link: "https://dribbble.com/manojrajput",
     src: "/images/manoj/cover.webp"
+  },
+  {
+    title: "Task Management Dashboard",
+    type: "desktop",
+    path: "./ui/naufal",
+    designer: "Naufal",
+    link: "https://dribbble.com/naufalhanifr",
+    src: "/images/naufal/cover.webp"
   }
 ]
 </script>

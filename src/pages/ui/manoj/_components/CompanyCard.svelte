@@ -279,11 +279,11 @@
     {/each}
   </div>
   <div class="card__people">
-    <img class="people__img" src="/images/manoj/blue.png" alt="" />
-    <img class="people__img" src="/images/manoj/purple.png" alt="" />
-    <img class="people__img" src="/images/manoj/pink.png" alt="" />
-    <img class="people__img" src="/images/manoj/orange.png" alt="" />
-    <img class="people__img" src="/images/manoj/yellow.png" alt="" />
+    <img class="people__img" src="/images/manoj/blue.webp" alt="" />
+    <img class="people__img" src="/images/manoj/purple.webp" alt="" />
+    <img class="people__img" src="/images/manoj/pink.webp" alt="" />
+    <img class="people__img" src="/images/manoj/orange.webp" alt="" />
+    <img class="people__img" src="/images/manoj/yellow.webp" alt="" />
     <div class="people__img fake">+5</div>
   </div>
   <div class="card__due">due date: {dueDate}</div>

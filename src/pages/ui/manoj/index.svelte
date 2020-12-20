@@ -151,7 +151,7 @@
         </div>
         <div class="nav__right">
           <Bell class="bell_icon" />
-          <img class="nav__img" src="/images/manoj/blue.png" alt="" />
+          <img class="nav__img" src="/images/manoj/blue.webp" alt="" />
         </div>
       </nav>
       <CompanyCard

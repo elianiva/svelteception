@@ -66,7 +66,7 @@
     <div class="msg__item">
       <img
         class="msg__img img-{color}"
-        src="/images/manoj/{color}.png"
+        src="/images/manoj/{color}.webp"
         alt=""
       />
       <span class="msg__name">{name}</span>

@@ -174,19 +174,6 @@
   height: 4rem;
   border-radius: 1rem;
 }
-
-.bubble {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: 50%;
-  cursor: pointer;
-  transition: linear 2s, transform 0.2s;
-}
-
-.bubble--bust {
-  transform: scale(1.8);
-}
 </style>
 
 <div class="body">

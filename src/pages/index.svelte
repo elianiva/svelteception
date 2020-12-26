@@ -295,7 +295,7 @@ let designs = [
     src: "/images/manoj/cover.webp"
   },
   {
-    title: "Task Management Dashboard",
+    title: "Instagram Desktop Redesign",
     type: "desktop",
     path: "./ui/naufal",
     designer: "Naufal",

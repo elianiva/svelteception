@@ -26,6 +26,7 @@ devDependencies:
   rollup-plugin-svelte-hot: 0.13.0_rollup@2.35.1+svelte@3.31.0
   rollup-plugin-svelte-svg: 0.2.3_svelte@3.31.0
   rollup-plugin-terser: 7.0.2_rollup@2.35.1
+  spank: 1.4.0
   spassr: 2.1.6
 lockfileVersion: 5.2
 packages:
@@ -1427,7 +1428,6 @@ packages:
     resolution:
       integrity: sha1-x57Zf380y48robyXkLzDZkdLS3k=
   /at-least-node/1.0.0:
-    dev: false
     engines:
       node: '>= 4.0.0'
     resolution:
@@ -1756,13 +1756,11 @@ packages:
   /cli-cursor/3.1.0:
     dependencies:
       restore-cursor: 3.1.0
-    dev: false
     engines:
       node: '>=8'
     resolution:
       integrity: sha512-I/zHAwsKf9FqGoXM4WWRACob9+SNukZTd94DWF57E4toouRulbCxcUh6RKUEOQlYTHJnzkPMySvPNaaSLNfLZw==
   /cli-spinners/2.5.0:
-    dev: false
     engines:
       node: '>=6'
     resolution:
@@ -1788,7 +1786,6 @@ packages:
     resolution:
       integrity: sha1-0dyXOSAxTfZ/vrlCI7TuNQI56Ws=
   /clone/1.0.4:
-    dev: false
     engines:
       node: '>=0.8'
     resolution:
@@ -1838,6 +1835,12 @@ packages:
       node: '>= 6'
     resolution:
       integrity: sha512-P0CysNDQ7rtVw4QIQtm+MRxV66vKFSvlsQvGYXZWR3qFU0jlMKHZZZgw8e+8DSah4UDKMqnknRDQz+xuQXQ/Zg==
+  /commander/6.2.1:
+    dev: true
+    engines:
+      node: '>= 6'
+    resolution:
+      integrity: sha512-U7VdrJFnJgo4xjrHpTzu0yrHPGImdsmD95ZlgYSEajAn2JKzDhDTPG9kBTefmObL2w/ngeZnilk+OV9CG3d7UA==
   /common-tags/1.8.0:
     dev: false
     engines:
@@ -2090,7 +2093,6 @@ packages:
   /defaults/1.0.3:
     dependencies:
       clone: 1.0.4
-    dev: false
     resolution:
       integrity: sha1-xlYFHpgX2f8I7YgUd/P+QBnz730=
   /defer-to-connect/1.1.3:
@@ -2805,7 +2807,6 @@ packages:
       graceful-fs: 4.2.4
       jsonfile: 6.1.0
       universalify: 1.0.0
-    dev: false
     engines:
       node: '>=10'
     resolution:
@@ -3085,6 +3086,11 @@ packages:
       node: '>= 0.4.0'
     resolution:
       integrity: sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==
+  /he/1.2.0:
+    dev: true
+    hasBin: true
+    resolution:
+      integrity: sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==
   /hosted-git-info/2.8.8:
     resolution:
       integrity: sha512-f/wzC2QaWBs7t9IYqB4T3sR1xviIViXJRJTWBlx2Gf3g0Xi5vI7Yy4koXQ1c9OYDGHN9sBy1DQ2AB8fqZBWhUg==
@@ -3395,7 +3401,6 @@ packages:
     resolution:
       integrity: sha512-wZ8x1js7Ia0kecP/CHM/3ABkAmujX7WPvQk6uu3Fly/Mk44pySulQpnHG46OMjHGXApINnV4QhY3SWnECO2z5g==
   /is-interactive/1.0.0:
-    dev: false
     engines:
       node: '>=8'
     resolution:
@@ -3676,7 +3681,6 @@ packages:
   /jsonfile/6.1.0:
     dependencies:
       universalify: 2.0.0
-    dev: false
     optionalDependencies:
       graceful-fs: 4.2.4
     resolution:
@@ -3819,7 +3823,6 @@ packages:
   /log-symbols/4.0.0:
     dependencies:
       chalk: 4.1.0
-    dev: false
     engines:
       node: '>=10'
     resolution:
@@ -4040,7 +4043,6 @@ packages:
     resolution:
       integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
   /mute-stream/0.0.8:
-    dev: false
     resolution:
       integrity: sha512-nnbWWOkoWyUsTjKrhgD0dcz22mdkSnpYqbEjIm2nhwhuxlSkpywJmBo8h0ZqJdkp73mb90SssHkN4rsRaBAfAA==
   /nan/2.14.2:
@@ -4096,6 +4098,12 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-MN6ZpzmfNCRM+3t57PTJHgHyw/h4OWnZ6mR8P5j/uZtqQr46RRuDE/P+g3n0YR/AiYXeWixZZzaip77gdICfRg==
+  /node-html-parser/1.4.9:
+    dependencies:
+      he: 1.2.0
+    dev: true
+    resolution:
+      integrity: sha512-UVcirFD1Bn0O+TSmloHeHqZZCxHjvtIeGdVdGMhyZ8/PWlEiZaZ5iJzR189yKZr8p0FXN58BUeC7RHRkf/KYGw==
   /node-releases/1.1.67:
     dev: false
     resolution:
@@ -4308,7 +4316,6 @@ packages:
       mute-stream: 0.0.8
       strip-ansi: 6.0.0
       wcwidth: 1.0.1
-    dev: false
     engines:
       node: '>=10'
     resolution:
@@ -4939,7 +4946,6 @@ packages:
     dependencies:
       onetime: 5.1.2
       signal-exit: 3.0.3
-    dev: false
     engines:
       node: '>=8'
     resolution:
@@ -5327,6 +5333,20 @@ packages:
   /sourcemap-codec/1.4.8:
     resolution:
       integrity: sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==
+  /spank/1.4.0:
+    dependencies:
+      chalk: 4.1.0
+      commander: 6.2.1
+      configent: 1.0.4
+      fs-extra: 9.0.1
+      node-html-parser: 1.4.9
+      ora: 5.1.0
+      rollup: 2.35.1
+      tossr: 1.3.1
+    dev: true
+    hasBin: true
+    resolution:
+      integrity: sha512-riRdU+h4qCI7vBA3DoCp4iiLkal0Ynm2DFU7ZI5p0JY3dRU5ckJzjU7/460DayZyPTr3jrvGLUUXUSPMtBPuLw==
   /spassr/2.1.6:
     dependencies:
       commander: 5.1.0
@@ -5891,13 +5911,11 @@ packages:
     resolution:
       integrity: sha512-rBJeI5CXAlmy1pV+617WB9J63U6XcazHHF2f2dbJix4XzpUF0RS3Zbj0FGIOCAva5P/d/GBOYaACQ1w+0azUkg==
   /universalify/1.0.0:
-    dev: false
     engines:
       node: '>= 10.0.0'
     resolution:
       integrity: sha512-rb6X1W158d7pRQBg5gkR8uPaSfiids68LTJQYOtEUhoJUWBdaQHsuT/EUduxXYxcrt4r5PJ4fuHW1MHT6p0qug==
   /universalify/2.0.0:
-    dev: false
     engines:
       node: '>= 10.0.0'
     resolution:
@@ -6027,7 +6045,6 @@ packages:
   /wcwidth/1.0.1:
     dependencies:
       defaults: 1.0.3
-    dev: false
     resolution:
       integrity: sha1-8LDc+RW8X/FSivrbLA4XtTLaL+g=
   /webidl-conversions/5.0.0:
@@ -6396,6 +6413,7 @@ specifiers:
   rollup-plugin-svelte-hot: ^0.13.0
   rollup-plugin-svelte-svg: ^0.2.3
   rollup-plugin-terser: ^7.0.2
+  spank: ^1.4.0
   spassr: ^2.1.6
   svelte: ^3.31.0
   svelte-preprocess: ^4.6.1

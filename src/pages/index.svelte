@@ -301,6 +301,14 @@ let designs = [
     designer: "Naufal",
     link: "https://dribbble.com/naufalhanifr",
     src: "/images/naufal/cover.webp"
+  },
+  {
+    title: "Dataku Mobile App",
+    type: "mobile",
+    path: "./ui/voxy",
+    designer: "Voxy",
+    link: "https://dribbble.com/voxySt",
+    src: "/images/voxy/cover.webp"
   }
 ]
 </script>

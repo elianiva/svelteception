@@ -18,6 +18,8 @@
 }
 
 .card__content {
+  display: grid;
+  grid-template-rows: 4rem 1.5rem 1fr;
   padding: 0.5rem 1rem 1rem;
 }
 
@@ -48,6 +50,7 @@
 }
 
 .card__detail {
+  align-self: flex-end;
   font-family: "Roboto", sans-serif;
   display: block;
   color: #707a8c;
@@ -74,8 +77,10 @@
   <img class="card__img" src="{src}" alt="" />
   <div class="card__content">
     <a href="{path}" target="_blank" class="card__title">{title}</a>
-    <span class="card__creator">Designed by
-      <a href="{link}">{designer}</a></span>
+    <span class="card__creator">
+      Designed by
+      <a href="{link}">{designer}</a>
+    </span>
     {#if type === 'mobile'}
       <span class="card__detail">
         <img class="card__icon" src="images/global/mobile.svg" alt="mobile" />
@@ -91,10 +96,5 @@
 </div>
 
 <script>
-export let title
-export let path
-export let link
-export let designer
-export let type
-export let src
+export let title, path, link, designer, type, src
 </script>

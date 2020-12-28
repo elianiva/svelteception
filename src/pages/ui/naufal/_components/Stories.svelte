@@ -148,7 +148,7 @@
             <div class="people__live">Live</div>
           {/if}
         </div>
-        <span class="people__label {idx === 0 && 'you'}">{label}</span>
+        <span class="people__label {idx === 0 ? 'you' : ''}">{label}</span>
       </div>
     {/each}
     <div class="people__next">

@@ -164,7 +164,7 @@
   </div>
   <div class="side__menu">
     {#each menuItems as { title, icon, isActive, count }}
-      <div class="menu__item {isActive && 'active'}">
+      <div class="menu__item {isActive ? 'active' : ''}">
         <svelte:component this="{icon}" class="menu__icon" />
         <span class="menu__title">{title}</span>
         {#if count > 0}<span class="menu__count">{count}</span>{/if}
@@ -178,7 +178,7 @@
   </div>
   <div class="side__alt-menu">
     {#each altMenuItems as { title, icon, isActive, count }}
-      <div class="menu__item {isActive && 'active'}">
+      <div class="menu__item {isActive ? 'active' : ''}">
         <svelte:component this="{icon}" class="menu__icon" />
         <span class="menu__title">{title}</span>
       </div>

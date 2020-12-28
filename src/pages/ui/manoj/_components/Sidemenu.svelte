@@ -67,7 +67,7 @@
   </div>
   <div class="side__menu">
     {#each menu as { name, icon, isActive }}
-      <div class="menu__item {isActive && 'active'}">
+      <div class="menu__item {isActive ? 'active' : ''}">
         <svelte:component this="{icon}" />
         <!-- svelte-ignore a11y-invalid-attribute -->
         <a class="menu__name" href="#">{name}</a>

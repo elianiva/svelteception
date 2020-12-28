@@ -120,12 +120,12 @@
       </span>
       {#each items as { name, time, isActive }}
         <div
-          class="todo__subitem {time[1] && 'subitem-active'}"
+          class="todo__subitem {time[1] ? 'subitem-active' : ''}"
           on:click="{() => (isActive = !isActive)}"
         >
           <Stopwatch class="stopwatch-icon" />
           <div class="subitem__name">{name}</div>
-          <div class="subitem__time {time[1] && 'time-active'}">{time[0]}</div>
+          <div class="subitem__time {time[1] ? 'time-active' : ''}">{time[0]}</div>
           <div class="subitem__status">
             {#if isActive}
               <Pause class="icon" />

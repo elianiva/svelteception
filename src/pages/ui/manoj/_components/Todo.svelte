@@ -125,7 +125,9 @@
         >
           <Stopwatch class="stopwatch-icon" />
           <div class="subitem__name">{name}</div>
-          <div class="subitem__time {time[1] ? 'time-active' : ''}">{time[0]}</div>
+          <div class="subitem__time {time[1] ? 'time-active' : ''}">
+            {time[0]}
+          </div>
           <div class="subitem__status">
             {#if isActive}
               <Pause class="icon" />

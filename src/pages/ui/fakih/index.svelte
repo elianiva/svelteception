@@ -178,7 +178,7 @@ import Pie from "./_components/Pie.svelte"
 import Awards from "./_components/Awards.svelte"
 import Growth from "./_components/Growth.svelte"
 import Participant from "./_components/Participant.svelte"
-import { metatags } from "@sveltech/routify"
+import { metatags } from "@roxi/routify"
 
 metatags.title = "Fakih | Svelteception"
 metatags.description = "Belajar App by Fakih"

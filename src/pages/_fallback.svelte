@@ -31,5 +31,5 @@ a {
 </div>
 
 <script>
-import { url } from "@sveltech/routify"
+import { url } from "@roxi/routify"
 </script>

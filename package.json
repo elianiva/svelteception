@@ -42,7 +42,7 @@
   },
   "dependencies": {
     "@rollup/plugin-replace": "^2.3.4",
-    "@sveltech/routify": "^1.9.10",
+    "@roxi/routify": "^2.7.3",
     "postcss-import": "^14.0.0",
     "svelte": "^3.31.0",
     "svelte-preprocess": "^4.6.1",

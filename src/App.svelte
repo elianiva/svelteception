@@ -21,6 +21,6 @@
 <Router routes="{routes}" />
 
 <script>
-import { Router } from "@sveltech/routify"
+import { Router } from "@roxi/routify"
 import { routes } from "../.routify/routes"
 </script>

@@ -99,7 +99,7 @@ import ProfileCard from "./_components/Profilecard.svelte"
 import ServerCard from "./_components/Servercard.svelte"
 import Rightnav from "./_components/Rightnav.svelte"
 
-import { metatags } from "@sveltech/routify"
+import { metatags } from "@roxi/routify"
 
 metatags.title = "Aghits | Svelteception"
 metatags.description = "Arceru UI by Adam"

@@ -44,7 +44,7 @@ import TopNav from "./_components/TopNav.svelte"
 import RightNav from "./_components/RightNav.svelte"
 import ChatList from "./_components/ChatList.svelte"
 import Chat from "./_components/Chat.svelte"
-import { metatags } from "@sveltech/routify"
+import { metatags } from "@roxi/routify"
 
 metatags.title = "Febrian | Svelteception"
 metatags.description = "Customer Desk Management by Febrian"

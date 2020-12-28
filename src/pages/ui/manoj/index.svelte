@@ -193,7 +193,7 @@ import Tasks from "./_components/Tasks.svelte"
 import Todo from "./_components/Todo.svelte"
 import Calendar from "./_components/Calendar.svelte"
 import Messages from "./_components/Messages.svelte"
-import { metatags } from "@sveltech/routify"
+import { metatags } from "@roxi/routify"
 
 metatags.title = "Manoj | Svelteception"
 metatags.description = "Task Management Dashboard by Manoj"

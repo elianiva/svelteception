@@ -1,7 +1,7 @@
 <slot />
 
 <script>
-import { metatags } from "@sveltech/routify"
+import { metatags } from "@roxi/routify"
 
 metatags.title = "UI | Svelteception"
 metatags.description =

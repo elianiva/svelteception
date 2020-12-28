@@ -226,7 +226,7 @@ import Instagram from "./icons/ig.svg"
 import Twitter from "./icons/tw.svg"
 import Up from "./icons/up-circle.svg"
 import Down from "./icons/down-circle.svg"
-import { metatags } from "@sveltech/routify"
+import { metatags } from "@roxi/routify"
 
 let container
 

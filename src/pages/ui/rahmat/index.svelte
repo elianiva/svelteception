@@ -689,7 +689,7 @@
 </div>
 
 <script>
-import { metatags } from "@sveltech/routify"
+import { metatags } from "@roxi/routify"
 metatags.title = "Rahmat | Svelteception"
 metatags.description = "Casual Street by Rahmat"
 </script>

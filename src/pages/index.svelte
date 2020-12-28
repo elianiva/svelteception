@@ -175,7 +175,7 @@
 <script>
 import Card from "./_components/Card.svelte"
 import About from "./_components/About.svelte"
-import { metatags } from "@sveltech/routify"
+import { metatags } from "@roxi/routify"
 
 metatags.title = "Home | Svelteception"
 metatags.description =

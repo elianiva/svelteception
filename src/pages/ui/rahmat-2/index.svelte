@@ -561,7 +561,7 @@ import Trash from "./icons/trash.svg"
 import Temp from "./icons/temp.svg"
 import Wand from "./icons/wand.svg"
 import Crop from "./icons/crop.svg"
-import { metatags } from "@sveltech/routify"
+import { metatags } from "@roxi/routify"
 
 metatags.title = "Rahmat | Svelteception"
 metatags.description = "Yumemi Riamu by Rahmat"

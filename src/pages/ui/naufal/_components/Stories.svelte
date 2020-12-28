@@ -159,7 +159,7 @@
 
 <script>
 import Right from "../icons/right.svg"
-import { metatags } from "@sveltech/routify"
+import { metatags } from "@roxi/routify"
 
 const userData = [
   {

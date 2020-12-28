@@ -172,7 +172,7 @@ import CategoryCard from "./_components/CategoryCard.svelte"
 import PopularCard from "./_components/PopularCard.svelte"
 import Sidebar from "./_components/Sidebar.svelte"
 import FoodIcon from "./icons/food-icon.svg"
-import { metatags } from "@sveltech/routify"
+import { metatags } from "@roxi/routify"
 
 metatags.title = "Riqzi | Svelteception"
 metatags.description = "MyKantin UI by Rizqi"

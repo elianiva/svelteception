@@ -189,7 +189,7 @@ import BackIcon from "./icons/back.svg"
 import HomeIcon from "./icons/home.svg"
 import RecentIcon from "./icons/recent.svg"
 
-import { metatags } from "@sveltech/routify"
+import { metatags } from "@roxi/routify"
 
 metatags.title = "Adam | Svelteception"
 metatags.description = "Malam Bujang UI by Adam"

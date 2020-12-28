@@ -281,7 +281,7 @@ import ListItem from "./_components/ListItem.svelte"
 import DiscussItem from "./_components/DiscussItem.svelte"
 import CourseItem from "./_components/CourseItem.svelte"
 import Assignment from "./_components/Assignment.svelte"
-import { metatags } from "@sveltech/routify"
+import { metatags } from "@roxi/routify"
 
 metatags.title = "Setiadi | Svelteception"
 metatags.description = "Online course app UI by Rizqi"

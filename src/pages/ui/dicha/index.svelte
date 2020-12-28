@@ -360,7 +360,7 @@ const images = {
   img: "/images/dicha/square-img.png"
 }
 
-import { metatags } from "@sveltech/routify"
+import { metatags } from "@roxi/routify"
 
 metatags.title = "Dicha | Svelteception"
 metatags.description = "Isekai landing page UI by Dicha"

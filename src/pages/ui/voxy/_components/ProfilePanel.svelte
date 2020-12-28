@@ -76,6 +76,10 @@
   font-family: "Quicksand", sans-serif;
   font-weight: 700;
 }
+
+.box__detail {
+  font-family: "Quicksand", sans-serif;
+}
 </style>
 
 <div class="panel">
@@ -101,8 +105,8 @@
       <div class="box__icon">
         <Message class="icon" />
       </div>
-      <span class="box__label"> Telepon </span>
-      <span class="box__detail"> 30 Menit </span>
+      <span class="box__label"> SMS </span>
+      <span class="box__detail"> 150 SMS </span>
     </div>
   </div>
 </div>

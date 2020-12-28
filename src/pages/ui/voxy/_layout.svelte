@@ -14,7 +14,7 @@
   background-color: #fafafa;
   height: 100%;
   width: 100vw;
-  padding: 4rem 0 6rem;
+  padding: 4rem 0 8rem;
   overflow-y: scroll;
 }
 

@@ -49,6 +49,7 @@
 .item__time {
   color: #c6c6c6;
   font-weight: 500;
+  font-family: "Quicksand", sans-serif;
 }
 </style>
 

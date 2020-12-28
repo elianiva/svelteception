@@ -90,6 +90,10 @@
   height: 1.5rem;
 }
 
+.swipe__msg {
+  font-family: "Quicksand", sans-serif;
+}
+
 .pack {
   margin: 1rem 0;
   padding: 0 1.5rem;

@@ -51,9 +51,9 @@
     <div class="story__item">
       <img
         class="story__img"
-        src="{item.img}"
-        alt="{item.name}"
-        style="{item.isUnread ? activeBorder : inactiveBorder}"
+        src={item.img}
+        alt={item.name}
+        style={item.isUnread ? activeBorder : inactiveBorder}
       />
       <span class="story__name">{item.name}</span>
     </div>

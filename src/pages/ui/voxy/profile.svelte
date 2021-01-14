@@ -37,7 +37,7 @@
 
 <!-- routify:options index=3 -->
 <ProfilePanel />
-<div class="pack" on:click="{() => (isVisible = !isVisible)}">
+<div class="pack" on:click={() => (isVisible = !isVisible)}>
   <span class="pack__label">Paket Aktif</span>
   <button class="pack__up">
     {#if isVisible}
@@ -48,7 +48,7 @@
   </button>
 </div>
 {#if isVisible}
-  <InfoPanel data="{packItems}" />
+  <InfoPanel data={packItems} />
 {/if}
 
 <script>

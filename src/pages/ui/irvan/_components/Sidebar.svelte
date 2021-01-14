@@ -119,20 +119,30 @@
   </div>
   <div class="sidebar__items">
     <!-- svelte-ignore a11y-invalid-attribute -->
-    <a class="sidebar__item" href="#">Explore
-      <ChevronRight /></a>
+    <a class="sidebar__item" href="#"
+      >Explore
+      <ChevronRight /></a
+    >
     <!-- svelte-ignore a11y-invalid-attribute -->
-    <a class="sidebar__item" href="#">Categories
-      <ChevronRight /></a>
+    <a class="sidebar__item" href="#"
+      >Categories
+      <ChevronRight /></a
+    >
     <!-- svelte-ignore a11y-invalid-attribute -->
-    <a class="sidebar__item" href="#">Saved
-      <ChevronRight /></a>
+    <a class="sidebar__item" href="#"
+      >Saved
+      <ChevronRight /></a
+    >
     <!-- svelte-ignore a11y-invalid-attribute -->
-    <a class="sidebar__item" href="#">Book Plans
-      <ChevronRight /></a>
+    <a class="sidebar__item" href="#"
+      >Book Plans
+      <ChevronRight /></a
+    >
     <!-- svelte-ignore a11y-invalid-attribute -->
-    <a class="sidebar__item" href="#">Preference
-      <ChevronRight /></a>
+    <a class="sidebar__item" href="#"
+      >Preference
+      <ChevronRight /></a
+    >
   </div>
   <div class="sidebar__current">
     <span class="current__title">Current Book Listening</span>

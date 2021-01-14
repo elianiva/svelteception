@@ -37,7 +37,7 @@
 
 <figure class="category">
   <figcaption class="category__caption">{title}</figcaption>
-  <img class="category__img" src="{src}" alt="{title}" />
+  <img class="category__img" {src} alt={title} />
 </figure>
 
 <script>

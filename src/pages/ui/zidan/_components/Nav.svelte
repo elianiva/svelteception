@@ -80,9 +80,9 @@
       <!-- svelte-ignore a11y-invalid-attribute -->
       <a class="nav__item" href="#">SPECIES</a>
       <div class="nav__hamburger">
-        <div></div>
-        <div></div>
-        <div></div>
+        <div />
+        <div />
+        <div />
       </div>
     </div>
   </div>

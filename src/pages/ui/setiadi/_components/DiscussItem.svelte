@@ -39,7 +39,7 @@
 
 <div class="discuss">
   <div class="discuss__profile">
-    <img class="discuss__pict" src="{src}" alt="{name}" />
+    <img class="discuss__pict" {src} alt={name} />
     <span class="discuss__name">{name}</span>
     <span class="discuss__date">{day} at {time} {period}</span>
   </div>

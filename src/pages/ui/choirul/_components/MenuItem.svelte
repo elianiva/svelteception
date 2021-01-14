@@ -31,8 +31,8 @@
 }
 </style>
 
-<div class="choirul-item" class:active="{isActive}">
-  <svelte:component this="{icon}" />
+<div class="choirul-item" class:active={isActive}>
+  <svelte:component this={icon} />
   <span class="item__title">{title}</span>
 </div>
 

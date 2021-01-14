@@ -616,14 +616,14 @@
       <a href="https://facebook.com/rahmat.rizalwan.52">
         https://facebook.com/rahmat.rizalwan.52
       </a>
-      <div class="divider"></div>
+      <div class="divider" />
       <a href="https://instagram.com/rahmat_rizalwan">
         https://instagram.com/rahmat_rizalwan
       </a>
     </div>
     <div class="inner-box">
       <div class="left-box">
-        <div class="left-box__year"></div>
+        <div class="left-box__year" />
         <div class="left-box__text">
           <span class="left-box__chapter">
             <span class="chapter__number">210</span>
@@ -635,22 +635,22 @@
         </div>
       </div>
       <div class="left-thingy">
-        <div class="left-thingy__dot"></div>
+        <div class="left-thingy__dot" />
       </div>
       <div class="arrow-wrapper">
         <div class="left-arrow">
-          <div class="left-arrow__pointer"></div>
-          <div class="left-arrow__circle"></div>
-          <div class="left-arrow__block"></div>
+          <div class="left-arrow__pointer" />
+          <div class="left-arrow__circle" />
+          <div class="left-arrow__block" />
         </div>
         <div class="right-arrow">
-          <div class="right-arrow__pointer"></div>
-          <div class="right-arrow__circle"></div>
-          <div class="right-arrow__block"></div>
+          <div class="right-arrow__pointer" />
+          <div class="right-arrow__circle" />
+          <div class="right-arrow__block" />
         </div>
       </div>
       <div class="right-thingy">
-        <div class="right-thingy__dot"></div>
+        <div class="right-thingy__dot" />
       </div>
       <div class="right-box">
         <div class="right-box__casual">
@@ -673,17 +673,17 @@
           </div>
         </div>
         <div class="right-box__palette">
-          <div class="palette__yellow"></div>
-          <div class="palette__pink"></div>
-          <div class="palette__blue"></div>
+          <div class="palette__yellow" />
+          <div class="palette__pink" />
+          <div class="palette__blue" />
         </div>
       </div>
     </div>
     <div class="img-wrapper">
       <img class="main-img" src="/images/rahmat/main-img.png" alt="" />
-      <div class="pink"></div>
-      <div class="yellow"></div>
-      <div class="blue"></div>
+      <div class="pink" />
+      <div class="yellow" />
+      <div class="blue" />
     </div>
   </div>
 </div>

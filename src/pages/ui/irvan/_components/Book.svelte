@@ -58,9 +58,11 @@
 
 <div class="book">
   <div class="book__img" style="background-color: {background}">
-    <img src="{img}" alt="{title}" />
-    <span class="book__rating"><Star class="book__icon" />
-      {rating}</span>
+    <img src={img} alt={title} />
+    <span class="book__rating"
+      ><Star class="book__icon" />
+      {rating}</span
+    >
   </div>
   <span class="book__title">{title}</span>
 </div>

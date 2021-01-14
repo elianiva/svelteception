@@ -177,16 +177,15 @@
 </style>
 
 <div class="body">
-  <div class="container" bind:this="{container}">
+  <div class="container" bind:this={container}>
     <Navbar />
     <div class="main">
       <span class="main__subtitle">BETTAFISH</span>
       <div class="main__wrapper">
-        <div class="circle"></div>
-        <h1 class="main__title">FIS</h1><span
-          class="main__title special"
-        >H</span>
-        <div class="circle-alt"></div>
+        <div class="circle" />
+        <h1 class="main__title">FIS</h1>
+        <span class="main__title special">H</span>
+        <div class="circle-alt" />
       </div>
       <img class="head" src="/images/zidan/head.png" alt="head" />
       <img class="tail" src="/images/zidan/tail.png" alt="tail" />
@@ -194,7 +193,7 @@
     <div class="scroll">
       <Up />
       <div class="scroll__bar">
-        <div class="scroll__thumb"></div>
+        <div class="scroll__thumb" />
       </div>
       <Down />
     </div>
@@ -204,7 +203,8 @@
       <Twitter />
     </div>
     <div class="desc">
-      <span class="desc__title">About The
+      <span class="desc__title"
+        >About The
         <span class="desc__highlight">Fish</span>
       </span>
       <p class="desc__content">
@@ -212,8 +212,8 @@
         in Southeast Asia. Including Indonesia, Thailand, Malaysia, Brunei
         Darussalam, Singapore, and Vietnam.
         <br />
-        This fish has a unique shape and character and tends to be aggresive in
-        defending its territory
+        This fish has a unique shape and character and tends to be aggresive in defending
+        its territory
       </p>
     </div>
   </div>

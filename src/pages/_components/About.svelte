@@ -40,8 +40,8 @@
     <p>
       What is this? Well, me and
       <a href="https://github.com/nikarashihatsu/">my friend</a>
-      are doing this amazing challenge, where each one of us try to implement
-      three designs each week into code. You can also submit your design to us!
+      are doing this amazing challenge, where each one of us try to implement three
+      designs each week into code. You can also submit your design to us!
       <br />
 
       Why is it called
@@ -56,7 +56,9 @@
       <br />
       <strong>UPDATE:</strong>
       One of my friend joined, and now it became
-      <span class="highlight">Three of &lbrace;Some, Every, No&rbrace;thing</span>
+      <span class="highlight"
+        >Three of &lbrace;Some, Every, No&rbrace;thing</span
+      >
       <br />
       <strong>ANOTHER UPDATE:</strong>
       I didn't have much time now so I just decided to implement one design each

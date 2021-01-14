@@ -39,16 +39,16 @@
 <div class="profile">
   <img src="../images/aghits/character.png" alt="character" />
   <div class="profile__about">
-    <span class="profile__username">{username}
+    <span class="profile__username"
+      >{username}
       <button class="profile__edit">
         <EditIcon width="1rem" height="1rem" />
       </button>
     </span>
     <p class="profile__desc">
       {desc}
-      Short bio. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-      Officia expedita fuga nesciunt vitae voluptatem aliquid, eos natus autem
-      tempora molestias.
+      Short bio. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia
+      expedita fuga nesciunt vitae voluptatem aliquid, eos natus autem tempora molestias.
     </p>
   </div>
 </div>

@@ -64,14 +64,15 @@
 </style>
 
 <div class="card">
-  <img class="card__img" src="{img}" alt="{name}" />
+  <img class="card__img" src={img} alt={name} />
   <span class="card__name">{name}</span>
   <span class="card__username">{username}</span>
   <button
     class="card__button"
     class:isFollowed
-    on:click="{() => (isFollowed = !isFollowed)}"
-  >{isFollowed ? 'Followed' : 'Follow'}</button>
+    on:click={() => (isFollowed = !isFollowed)}
+    >{isFollowed ? "Followed" : "Follow"}</button
+  >
 </div>
 
 <script>

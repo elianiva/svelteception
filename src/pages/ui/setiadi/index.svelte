@@ -177,22 +177,22 @@
       <Box title="Meetings" row="1/10" col="1/2">
         {#each listItems as item, index}
           <ListItem
-            number="{index + 1}"
-            title="{item.title}"
-            duration="{item.duration}"
-            active="{item.active}"
+            number={index + 1}
+            title={item.title}
+            duration={item.duration}
+            active={item.active}
           />
         {/each}
       </Box>
       <Box title="Discuss" row="10/26" col="1/2">
         {#each discussItems as item, index}
           <DiscussItem
-            src="{item.img}"
-            name="{item.name}"
-            day="{item.day}"
-            time="{item.time}"
-            period="{item.period}"
-            content="{item.content}"
+            src={item.img}
+            name={item.name}
+            day={item.day}
+            time={item.time}
+            period={item.period}
+            content={item.content}
           />
         {/each}
       </Box>
@@ -206,15 +206,16 @@
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
-          ></iframe>
+          />
         </div>
         <div class="content__wrapper">
           <div class="content__heading">
             <h1 class="content__title">
               More familiar with UI/UX - Introduction
             </h1>
-            <span class="content__author">by Setiadi Putra Pratama • September
-              30, 2020</span>
+            <span class="content__author"
+              >by Setiadi Putra Pratama • September 30, 2020</span
+            >
             <div class="content__icons">
               <button class="content__icon">
                 <DownloadIcon width="1rem" height="1rem" />
@@ -230,11 +231,11 @@
           </div>
           {#each assignments as item, index}
             <Assignment
-              num="{index + 1}"
-              title="{item.title}"
-              desc="{item.desc}"
-              time="{item.time}"
-              students="{item.students}"
+              num={index + 1}
+              title={item.title}
+              desc={item.desc}
+              time={item.time}
+              students={item.students}
             />
           {/each}
         </div>
@@ -246,11 +247,11 @@
         </div>
         {#each courseItems as item, index}
           <CourseItem
-            src="{item.src}"
-            title="{item.title}"
-            author="{item.author}"
-            colour="{item.colour}"
-            width="{item.width}"
+            src={item.src}
+            title={item.title}
+            author={item.author}
+            colour={item.colour}
+            width={item.width}
           />
         {/each}
       </Box>

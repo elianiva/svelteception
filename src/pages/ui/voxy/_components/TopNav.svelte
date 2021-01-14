@@ -117,12 +117,12 @@
       class="toggle__input"
       type="checkbox"
       aria-hidden="true"
-      on:click="{toggleNav}"
-      checked="{checked}"
+      on:click={toggleNav}
+      {checked}
     />
-    <div class="toggle__item" aria-hidden="true"></div>
-    <div class="toggle__item" aria-hidden="true"></div>
-    <div class="toggle__item" aria-hidden="true"></div>
+    <div class="toggle__item" aria-hidden="true" />
+    <div class="toggle__item" aria-hidden="true" />
+    <div class="toggle__item" aria-hidden="true" />
   </div>
   <div class="nav__brand">
     <Logo class="brand__logo" />
@@ -133,7 +133,7 @@
   </div>
 </nav>
 {#if isOpen}
-  <div transition:fly="{{ duration: 100, y: -100 }}" class="overlay">
+  <div transition:fly={{ duration: 100, y: -100 }} class="overlay">
     <!-- svelte-ignore a11y-invalid-attribute -->
     <a href="#">LInk to nowhere</a>
   </div>

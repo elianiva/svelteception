@@ -46,14 +46,14 @@
 </style>
 
 <div class="course">
-  <img class="course__img" src="{src}" alt="{title}" />
+  <img class="course__img" {src} alt={title} />
   <span class="course__title">{title}</span>
   <span class="course__author">by {author}</span>
   <div class="course__progress" data-length="20%">
     <span
       class="course__progressbar"
       style="width: {width}; background-color: {colour};"
-    ></span>
+    />
   </div>
 </div>
 

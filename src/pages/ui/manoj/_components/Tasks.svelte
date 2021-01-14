@@ -95,11 +95,10 @@
 <div class="task">
   <span class="task__title">My Tasks <span class="task__num">(05)</span> </span>
   {#each items as { name, isCompleted, msg, branch }, idx}
-    <div class="task__item" on:click="{() => (isCompleted = !isCompleted)}">
+    <div class="task__item" on:click={() => (isCompleted = !isCompleted)}>
       <span class="item__num">0{idx + 1}</span>
-      <span
-        class="item__name {isCompleted ? 'item-complete' : ''}"
-      >{name}</span>
+      <span class="item__name {isCompleted ? 'item-complete' : ''}">{name}</span
+      >
       {#if msg !== 0}
         <div class="item__msg">
           {msg}

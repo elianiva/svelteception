@@ -19,7 +19,7 @@
 </style>
 
 <div class="bar">
-  <div class="bar__filler" style="width: {amount}%"></div>
+  <div class="bar__filler" style="width: {amount}%" />
 </div>
 
 <script>

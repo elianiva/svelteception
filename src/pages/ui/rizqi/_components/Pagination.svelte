@@ -20,7 +20,7 @@
 
 <div class="pagination">
   {#each pages as page}
-    <div class="pagination__item {page.active ? 'active' : ''}"></div>
+    <div class="pagination__item {page.active ? 'active' : ''}" />
   {/each}
 </div>
 

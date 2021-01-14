@@ -146,7 +146,8 @@
     T I O
     <span class="purple">N</span>
   </h1>
-  <pre class="hero__code"><span class="purple">design</span>.<span
+  <pre
+    class="hero__code"><span class="purple">design</span>.<span
       class="red"
     >transform(</span><span class="yellow">result</span> ={'>'} <span
       class="yellow"
@@ -159,12 +160,12 @@
     <div class="content__cards">
       {#each designs as design}
         <Card
-          title="{design.title}"
-          type="{design.type}"
-          path="{design.path}"
-          designer="{design.designer}"
-          link="{design.link}"
-          src="{design.src}"
+          title={design.title}
+          type={design.type}
+          path={design.path}
+          designer={design.designer}
+          link={design.link}
+          src={design.src}
         />
       {/each}
     </div>
@@ -309,6 +310,14 @@ let designs = [
     designer: "Voxy",
     link: "https://dribbble.com/voxySt",
     src: "/images/voxy/cover.webp"
+  },
+  {
+    title: "Movie Dashboard",
+    type: "desktop",
+    path: "./ui/nauval",
+    designer: "Nauval",
+    link: "https://dribbble.com/nauvalpradipta",
+    src: "/images/nauval/cover.webp"
   }
 ]
 </script>

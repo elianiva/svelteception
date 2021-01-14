@@ -89,7 +89,7 @@
 
 <div class="graph">
   <div class="graph__main">
-    <div class="main__treshold"></div>
+    <div class="main__treshold" />
     <div class="main__item">
       <span>20</span>
       <span>10</span>
@@ -101,7 +101,7 @@
         <div
           class="main__bar"
           style="height: {bar.value}%; background-color: {bar.color}"
-        ></div>
+        />
         <span class="main__label">{bar.month}</span>
       </div>
     {/each}

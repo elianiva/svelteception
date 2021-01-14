@@ -57,14 +57,14 @@
 
 <div class="popular">
   <figure class="popular__figure">
-    <img class="popular__img" src="{src}" alt="" />
+    <img class="popular__img" {src} alt="" />
     <figcaption class="popular__time">{duration} min</figcaption>
   </figure>
-  <a href="{href}" class="popular__title">{title}</a>
+  <a {href} class="popular__title">{title}</a>
   <div class="popular__label">
     <StarIcon width="1rem" height="1rem" />
     <span class="popular__score">{score}</span>
-    <span class="popular__price">Rp {price.toLocaleString('id-ID')}</span>
+    <span class="popular__price">Rp {price.toLocaleString("id-ID")}</span>
   </div>
 </div>
 

@@ -74,14 +74,14 @@
 </style>
 
 <div class="card">
-  <img class="card__img" src="{src}" alt="" />
+  <img class="card__img" {src} alt="" />
   <div class="card__content">
-    <a href="{path}" target="_blank" class="card__title">{title}</a>
+    <a href={path} target="_blank" class="card__title">{title}</a>
     <span class="card__creator">
       Designed by
-      <a href="{link}">{designer}</a>
+      <a href={link}>{designer}</a>
     </span>
-    {#if type === 'mobile'}
+    {#if type === "mobile"}
       <span class="card__detail">
         <img class="card__icon" src="images/global/mobile.svg" alt="mobile" />
         Mobile UI

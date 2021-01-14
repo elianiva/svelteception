@@ -124,7 +124,7 @@
 
 <div class="chat">
   <div class="chat__wrapper">
-    <img class="chat__img" src="{img}" alt="" />
+    <img class="chat__img" src={img} alt="" />
     <div class="chat__name">
       <span class="chat__username">{from}</span>
       <span class="chat__time"> • {time}</span>
@@ -161,7 +161,7 @@
     {/if}
   </div>
 </div>
-<div class="divider {isChangingDate ? 'date' : ''}"></div>
+<div class="divider {isChangingDate ? 'date' : ''}" />
 
 <script>
 import File from "../icons/file.svg"

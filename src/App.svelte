@@ -18,7 +18,7 @@
 }
 </style>
 
-<Router routes="{routes}" />
+<Router {routes} />
 
 <script>
 import { Router } from "@roxi/routify"

@@ -26,10 +26,15 @@
 <div class="body">
   <div class="container">
     <TopNav />
-    <slot decorator="{TabsTransition}" />
+    <slot decorator={TabsTransition} />
   </div>
   <BottomNav
-    data="{{ home: $isActive('./home'), dashboard: $isActive('./dashboard'), store: $isActive('./store'), profile: $isActive('./profile') }}"
+    data={{
+      home: $isActive("./home"),
+      dashboard: $isActive("./dashboard"),
+      store: $isActive("./store"),
+      profile: $isActive("./profile")
+    }}
   />
 </div>
 

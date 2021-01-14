@@ -126,16 +126,18 @@
   <div class="sidebar__menu">
     <span class="menu__title">Menu</span>
     <div class="menu__items">
-      <MenuItem icon="{Home}" title="Home" isActive="{true}" />
-      <MenuItem icon="{Message}" title="Messages" />
-      <MenuItem icon="{User}" title="Profile" />
-      <MenuItem icon="{Bookmark}" title="Saved Post" />
-      <MenuItem icon="{Settings}" title="Settings" />
+      <MenuItem icon={Home} title="Home" isActive={true} />
+      <MenuItem icon={Message} title="Messages" />
+      <MenuItem icon={User} title="Profile" />
+      <MenuItem icon={Bookmark} title="Saved Post" />
+      <MenuItem icon={Settings} title="Settings" />
     </div>
   </div>
   <div class="sidebar__section">
-    <span class="section__title">Account
-      <Down /></span>
+    <span class="section__title"
+      >Account
+      <Down /></span
+    >
     <div class="section__profile">
       <img class="section__img" src="/images/choirul/me.png" alt="me" />
       <span class="section__name">Michael</span>

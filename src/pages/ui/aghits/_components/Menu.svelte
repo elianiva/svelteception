@@ -58,11 +58,9 @@
   <ul class="menu__items">
     {#each items as item}
       <li class="menu__item {item.active ? 'active' : ''}">
-        <a
-          class="menu__link"
-          href="{item.href}"
-          onclick="return false"
-        >{item.text}</a>
+        <a class="menu__link" href={item.href} onclick="return false"
+          >{item.text}</a
+        >
       </li>
     {/each}
   </ul>

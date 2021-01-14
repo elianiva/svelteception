@@ -16,11 +16,19 @@
   <div class="sidenav__container">
     <Menu
       title="Arceru"
-      items="{[{ href: '#', text: 'Dashboard', active: true }, { href: '#', text: 'Friends', active: false }, { href: '#', text: 'Economy', active: false }]}"
+      items={[
+        { href: "#", text: "Dashboard", active: true },
+        { href: "#", text: "Friends", active: false },
+        { href: "#", text: "Economy", active: false }
+      ]}
     />
     <Menu
       title="Servers"
-      items="{[{ href: '#', text: 'Survival', active: false }, { href: '#', text: 'Creative', active: false }, { href: '#', text: 'Skyblock', active: false }]}"
+      items={[
+        { href: "#", text: "Survival", active: false },
+        { href: "#", text: "Creative", active: false },
+        { href: "#", text: "Skyblock", active: false }
+      ]}
     />
     <Card username="Hatsuselzuna" />
   </div>

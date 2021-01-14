@@ -135,7 +135,7 @@
       <Bell />
     </button>
   </div>
-  <div class="nav__divider"></div>
+  <div class="nav__divider" />
   <div class="nav__side">
     <img class="side__img" src="/images/febrian/owner.jpg" alt="febrian" />
     <span class="side__name">Yus Febrianto</span>

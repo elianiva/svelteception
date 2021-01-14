@@ -60,11 +60,11 @@
   <div class="feeds__cards">
     {#each data as item}
       <FeedCard
-        name="{item.name}"
-        img="{item.img}"
-        detailImg="{item.detailImg}"
-        likes="{item.likes}"
-        comments="{item.comments}"
+        name={item.name}
+        img={item.img}
+        detailImg={item.detailImg}
+        likes={item.likes}
+        comments={item.comments}
       />
     {/each}
   </div>

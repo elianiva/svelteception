@@ -55,8 +55,8 @@
 }
 </style>
 
-<div class="item" class:active="{isActive}">
-  <svelte:component this="{icon}" class="item__icon" />
+<div class="item" class:active={isActive}>
+  <svelte:component this={icon} class="item__icon" />
   <span class="item__name">{name}</span>
 </div>
 

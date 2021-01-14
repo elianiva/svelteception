@@ -148,9 +148,9 @@
       <div class="calendar__row">
         <span class="row__title"> {date.name} </span>
         {#each date.days as day}
-          <span
-            class="row__number {stylings[day[1]]}"
-          >{day[0] < 10 ? `0${day[0]}` : day[0]}</span>
+          <span class="row__number {stylings[day[1]]}"
+            >{day[0] < 10 ? `0${day[0]}` : day[0]}</span
+          >
         {/each}
       </div>
     {/each}

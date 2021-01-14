@@ -57,8 +57,8 @@
   <div class="navbar__hamburger">
     <!-- prettier-ignore -->
     <span></span>
-    <span></span>
-    <span></span>
+    <span />
+    <span />
   </div>
   <h1 class="navbar__title">MyKantin</h1>
   <div class="navbar__search">

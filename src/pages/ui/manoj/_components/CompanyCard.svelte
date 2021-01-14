@@ -261,17 +261,18 @@
     <div class="card__star">
       <Star class="icon" />
     </div>
-    <div class="card__menu"></div>
+    <div class="card__menu" />
   </div>
   <div class="card__detail">
     <div class="detail__progress {progress.color}">{progress.name}</div>
     <div class="detail__priority {priority}">{priority} priority</div>
   </div>
   <div class="card__task">
-    <span class="task__label">Task Done:
+    <span class="task__label"
+      >Task Done:
       <span class="hl">{tasks[0]}</span>/{tasks[1]}
     </span>
-    <div class="task__bar bar-{taskColor}"></div>
+    <div class="task__bar bar-{taskColor}" />
   </div>
   <div class="card__category">
     {#each categories as { name, color }}

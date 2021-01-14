@@ -115,7 +115,13 @@ main {
         </span>
       </div>
       <Pagination
-        pages="{[{ active: true }, { active: false }, { active: false }, { active: false }, { active: false }]}"
+        pages={[
+          { active: true },
+          { active: false },
+          { active: false },
+          { active: false },
+          { active: false }
+        ]}
       />
       <div class="category">
         <div class="category__heading">
@@ -123,10 +129,10 @@ main {
           <button class="category__button">Lebih Lengkap</button>
         </div>
         <div class="category__items">
-          <CategoryCard src="{images.all}" title="Semua" />
-          <CategoryCard src="{images.pizza}" title="Pizza" />
-          <CategoryCard src="{images.burger}" title="Burger" />
-          <CategoryCard src="{images.juice}" title="Jus" />
+          <CategoryCard src={images.all} title="Semua" />
+          <CategoryCard src={images.pizza} title="Pizza" />
+          <CategoryCard src={images.burger} title="Burger" />
+          <CategoryCard src={images.juice} title="Jus" />
         </div>
       </div>
       <div class="popular">
@@ -135,28 +141,28 @@ main {
         </div>
         <div class="popular__items">
           <PopularCard
-            src="{images.cheese}"
+            src={images.cheese}
             title="4 Cheese"
             href="javascript:void(0)"
             duration="25-30"
             score="4.7"
-            price="{130000}"
+            price={130000}
           />
           <PopularCard
-            src="{images.philadelphia}"
+            src={images.philadelphia}
             title="Philadelphia"
             href="javascript:void(0)"
             duration="30-35"
             score="4.5"
-            price="{250000}"
+            price={250000}
           />
           <PopularCard
-            src="{images.mozarella}"
+            src={images.mozarella}
             title="Mozarella"
             href="javascript:void(0)"
             duration="40-46"
             score="4.6"
-            price="{175000}"
+            price={175000}
           />
         </div>
       </div>

@@ -168,10 +168,10 @@
 <div class="pie">
   <span class="pie__title"> Best agility recently </span>
   <div class="pie__chart-wrapper">
-    <div class="pie__chart-percent"></div>
-    <div class="pie__chart-percent"></div>
-    <div class="pie__chart-percent"></div>
-    <div class="pie__chart"></div>
+    <div class="pie__chart-percent" />
+    <div class="pie__chart-percent" />
+    <div class="pie__chart-percent" />
+    <div class="pie__chart" />
   </div>
   <div class="pie__labels">
     <span class="pie__label">komputasi grafis</span>

@@ -62,18 +62,18 @@
 </style>
 
 <div class="card">
-  <img class="card__img" src="{img}" alt="{name}" />
+  <img class="card__img" src={img} alt={name} />
   <div class="card__detail">
-    <img class="detail__img" src="{detailImg}" alt="" />
+    <img class="detail__img" src={detailImg} alt="" />
     <span class="detail__name">{name}</span>
     <div class="detail__likes">
-      <button class="detail__button" on:click="{e => toggleStyle(e)}">
+      <button class="detail__button" on:click={e => toggleStyle(e)}>
         <Heart class="detail__icon--like" />
       </button>
       <span
         class="detail__label"
-        style="color: {isLiked ? '#FF5676' : '#a5b7e2'}"
-      >{likes}</span>
+        style="color: {isLiked ? '#FF5676' : '#a5b7e2'}">{likes}</span
+      >
     </div>
     <div class="detail__comments">
       <button class="detail__button">

@@ -122,7 +122,7 @@
   <div class="topbar">
     <HeartIcon class="topbar__icon" />
     <span class="topbar__order">3</span>
-    <img class="topbar__img" src="{images.gigachad}" alt="" />
+    <img class="topbar__img" src={images.gigachad} alt="" />
   </div>
   <span class="title">Pesanan Saya</span>
   <div class="sidecard">
@@ -132,31 +132,31 @@
   </div>
   <div class="orders">
     <OrderItem
-      src="{images.cheese}"
+      src={images.cheese}
       qty="3"
       name="4 Cheese Pizza"
       price="520"
-      food="{true}"
+      food={true}
     />
     <OrderItem
-      src="{images.juice}"
+      src={images.juice}
       qty="4"
       name="Jus Mangga"
       price="60"
-      food="{true}"
+      food={true}
     />
     <OrderItem
-      src="{images.salad}"
+      src={images.salad}
       qty="2"
       name="Salad Sayur"
       price="30"
-      food="{true}"
+      food={true}
     />
     <OrderItem
-      src="{images.car}"
+      src={images.car}
       name="Jl. Bangke no 13..."
       price="Gratis"
-      food="{false}"
+      food={false}
     />
   </div>
   <div class="price">

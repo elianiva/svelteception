@@ -49,9 +49,9 @@
 </style>
 
 <div class="card">
-  <img src="{img}" alt="" />
+  <img src={img} alt="" />
   <div class="card__detail {color}">
-    <a href="{href}" class="card__servername">{title}</a>
+    <a {href} class="card__servername">{title}</a>
     <p class="card__shortdesc">{desc}</p>
   </div>
 </div>

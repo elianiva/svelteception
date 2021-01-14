@@ -159,16 +159,16 @@
             <div class="header__icon">
               <ChevronRight />
             </div>
-            <div class="header__bar"></div>
+            <div class="header__bar" />
           </div>
         </div>
         <div class="main__books">
           {#each books as book}
             <Book
-              img="{book.img}"
-              title="{book.title}"
-              rating="{book.rating}"
-              background="{book.background}"
+              img={book.img}
+              title={book.title}
+              rating={book.rating}
+              background={book.background}
             />
           {/each}
         </div>
@@ -178,9 +178,9 @@
             img="/images/irvan/camino-winds.png"
             title="Camino Winds"
             author="John Grisham"
-            reviews="{246}"
-            rating="{4.5}"
-            categories="{['thriller', 'action']}"
+            reviews={246}
+            rating={4.5}
+            categories={["thriller", "action"]}
           />
         </div>
       </div>

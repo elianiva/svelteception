@@ -108,9 +108,9 @@
 
 <aside class="nav">
   <div class="nav__win-button">
-    <button class="win-button__close" aria-label="close"></button>
-    <button class="win-button__min" aria-label="min"></button>
-    <button class="win-button__max" aria-label="max"></button>
+    <button class="win-button__close" aria-label="close" />
+    <button class="win-button__min" aria-label="min" />
+    <button class="win-button__max" aria-label="max" />
   </div>
   <div class="nav__logo-febrian">
     <Lines />

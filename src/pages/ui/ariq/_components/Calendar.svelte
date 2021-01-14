@@ -119,9 +119,9 @@
         {#each date.days as day}
           <span
             class="row__number color-{day[3]}"
-            class:inactive="{!day[1]}"
-            class:highlighted="{day[2]}"
-          >{day[0]}</span>
+            class:inactive={!day[1]}
+            class:highlighted={day[2]}>{day[0]}</span
+          >
         {/each}
       </div>
     {/each}

@@ -501,8 +501,8 @@
       <span class="left-3">アイドル | アイドル</span>
       <span class="left-4">主人 | 主人 | 主人</span>
     </div>
-    <div class="top-popup"></div>
-    <div class="top-alt"></div>
+    <div class="top-popup" />
+    <div class="top-alt" />
     <div class="top">
       <div class="top__icons">
         <Rotate />
@@ -515,17 +515,17 @@
       <div class="top__text">夢見りあむ</div>
     </div>
     <div class="main">
-      <div class="main__cross"></div>
+      <div class="main__cross" />
       <div class="main__name">
         <span class="name__first">夢見り</span>
         <span class="name__last">あむ〜〜</span>
       </div>
       <div class="main__seiyuu">星希成奏</div>
       <img class="riamu" src="/images/rahmat/riamu.webp" alt="" />
-      <div class="main__bg"></div>
+      <div class="main__bg" />
     </div>
-    <div class="bottom-popup"></div>
-    <div class="bottom-alt"></div>
+    <div class="bottom-popup" />
+    <div class="bottom-alt" />
     <div class="bottom">
       <div class="bottom__icons">
         <Rotate />
@@ -545,9 +545,9 @@
     </div>
     <Circle class="top-circle" />
     <Circle class="bottom-circle" />
-    <div class="right-line"></div>
+    <div class="right-line" />
     <Shape class="right-arrow" />
-    <div class="left-line"></div>
+    <div class="left-line" />
     <Shape class="left-arrow" />
   </div>
 </div>

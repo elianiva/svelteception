@@ -50,7 +50,7 @@
 
 {#if food}
   <div class="order">
-    <img class="order__img" src="{src}" alt="" />
+    <img class="order__img" {src} alt="" />
     <span class="order__qty">{qty}</span>
     <span class="order__symbol">&times;</span>
     <span class="order__name">{name}</span>
@@ -58,7 +58,7 @@
   </div>
 {:else}
   <div class="destination">
-    <div class="order__img"><img class="order__icon" src="{src}" alt="" /></div>
+    <div class="order__img"><img class="order__icon" {src} alt="" /></div>
     <span class="order__name">{name}</span>
     <span class="order__price">{price}</span>
   </div>

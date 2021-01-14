@@ -316,15 +316,15 @@
       <div class="sidebar__icons">
         <!-- svelte-ignore a11y-invalid-attribute -->
         <a class="sidebar__icon" href="javascript:void(0)">
-          <img src="{images.twitter}" alt="twitter" />
+          <img src={images.twitter} alt="twitter" />
         </a>
         <!-- svelte-ignore a11y-invalid-attribute -->
         <a class="sidebar__icon" href="javascript:void(0)">
-          <img src="{images.instagram}" alt="instagram" />
+          <img src={images.instagram} alt="instagram" />
         </a>
         <!-- svelte-ignore a11y-invalid-attribute -->
         <a class="sidebar__icon" href="javascript:void(0)">
-          <img src="{images.facebook}" alt="facebook" />
+          <img src={images.facebook} alt="facebook" />
         </a>
       </div>
     </aside>
@@ -340,12 +340,12 @@
         </p>
         <button class="main__btn">SHOW ME</button>
         <div class="main__thumbnail">
-          <img src="{images.thumb}" alt="flower" />
+          <img src={images.thumb} alt="flower" />
         </div>
       </div>
       <div class="main__right">
-        <img class="main__img" src="{images.img}" alt="isekai" />
-        <div class="main__border"></div>
+        <img class="main__img" src={images.img} alt="isekai" />
+        <div class="main__border" />
       </div>
     </main>
   </div>

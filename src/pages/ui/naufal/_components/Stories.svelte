@@ -140,7 +140,7 @@
     {#each userData as { label, imgUrl, isLive, color }, idx}
       <div class="people border-{color ? color : 'grey'}">
         <div class="people__img">
-          <img src="{imgUrl}" alt="{label}" />
+          <img src={imgUrl} alt={label} />
           {#if idx === 0}
             <div class="people__add">+</div>
           {/if}

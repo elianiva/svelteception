@@ -170,19 +170,20 @@
   <div class="contact__wrapper">
     {#if img}
       <div class="contact__img-wrapper {isActive ? 'active' : ''}">
-        <img class="contact__img" src="{img}" alt="name" />
+        <img class="contact__img" src={img} alt="name" />
       </div>
     {:else}
       <div class="contact__placeholder {isActive ? 'active' : ''} {colour}">
-        {name.split(' ')[0][0]}{name.split(' ')[1][0]}
+        {name.split(" ")[0][0]}{name.split(" ")[1][0]}
       </div>
     {/if}
-    <span class="contact__name">{name}
+    <span class="contact__name"
+      >{name}
       <span class="contact__time">{time}</span>
     </span>
     <span class="contact__last">
       {lastChat}
-      {#if typeof unread === 'number'}
+      {#if typeof unread === "number"}
         <span class="contact__unread">{unread}</span>
       {:else if unread}
         <Checkmark width="1.125rem" height="1.125rem" />
@@ -197,7 +198,11 @@
     <div class="contact__level">
       <div class="level__status">{STATUS[status - 1]}</div>
       <div
-        class="level__severity {severity === 1 ? 'low' : severity === 2 ? 'medium' : 'high'}"
+        class="level__severity {severity === 1
+          ? 'low'
+          : severity === 2
+          ? 'medium'
+          : 'high'}"
       >
         {SEVERITY[severity - 1]}
       </div>

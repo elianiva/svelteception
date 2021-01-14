@@ -129,7 +129,7 @@
   {#each menu as itemName, index}
     <div
       class="menu__item {activeMenu === index + 1 ? 'menu-active' : ''}"
-      on:click="{() => (activeMenu = index + 1)}"
+      on:click={() => (activeMenu = index + 1)}
     >
       <span class="item__name">{itemName}</span>
     </div>
@@ -141,7 +141,7 @@
   <span class="graph__label">Pemakaian kuota</span>
   <span class="graph__kuota">5 GB</span>
   {#each new Array(11) as _}
-    <div class="graph__lines"></div>
+    <div class="graph__lines" />
   {/each}
   <div class="graph__lines">
     <span class="graph__hour">2:00</span>

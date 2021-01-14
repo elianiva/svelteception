@@ -242,7 +242,7 @@
           alt="that-guy"
         />
         <div class="special__name">Bessie Cooper</div>
-        <div class="special__bubbles"></div>
+        <div class="special__bubbles" />
       </div>
     </div>
     <div class="chat__box">
@@ -250,7 +250,7 @@
         class="box__input"
         type="text"
         placeholder="Enter to send. Shift + Enter to add new line."
-      ></textarea>
+      />
       <div class="box__icon-wrapper">
         <div class="box__icon-left">
           <button class="box__icon">

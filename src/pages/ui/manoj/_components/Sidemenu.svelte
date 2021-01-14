@@ -62,13 +62,13 @@
 </style>
 
 <aside class="side">
-  <div class="logo" on:click="{() => isLight.update(prev => !prev)}">
+  <div class="logo" on:click={() => isLight.update(prev => !prev)}>
     <Logo class="icon" />
   </div>
   <div class="side__menu">
     {#each menu as { name, icon, isActive }}
       <div class="menu__item {isActive ? 'active' : ''}">
-        <svelte:component this="{icon}" />
+        <svelte:component this={icon} />
         <!-- svelte-ignore a11y-invalid-attribute -->
         <a class="menu__name" href="#">{name}</a>
       </div>

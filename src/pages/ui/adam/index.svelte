@@ -150,9 +150,9 @@
   <div class="container">
     <nav class="navbar">
       <div class="navbar__hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
+        <span />
+        <span />
+        <span />
       </div>
     </nav>
     <section class="greet">

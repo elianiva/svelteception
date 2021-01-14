@@ -65,7 +65,7 @@
 </style>
 
 <div class="card">
-  <img class="card__img" src="{imgUrl}" alt="" />
+  <img class="card__img" src={imgUrl} alt="" />
   <div class="card__detail">
     <div class="detail__pfp">
       <img
@@ -76,7 +76,7 @@
       <span class="pfp__name">{name}</span>
     </div>
     <div class="detail__right">
-      <div class="detail__likes" on:click="{() => (isLiked = !isLiked)}">
+      <div class="detail__likes" on:click={() => (isLiked = !isLiked)}>
         {#if isLiked}
           <HeartFilled class="likes__icon" />
         {:else}

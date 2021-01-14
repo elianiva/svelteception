@@ -64,17 +64,17 @@
 }
 </style>
 
-<div transition:fly="{{ duration: 100, y: -100 }}" class="panel">
+<div transition:fly={{ duration: 100, y: -100 }} class="panel">
   <span class="panel__label">Info Paket</span>
   {#each data as { name, used, total, days, bar }}
     <div class="panel__item">
       <span class="item__name">{name}</span>
-      <span class="item__usage"><span
-          class="item__used"
-        >{used}</span>/{total}</span>
+      <span class="item__usage"
+        ><span class="item__used">{used}</span>/{total}</span
+      >
       <span class="item__days">{days}</span>
       <div class="item__bar">
-        <div class="bar__filler" style="width: {bar}%"></div>
+        <div class="bar__filler" style="width: {bar}%" />
       </div>
     </div>
   {/each}

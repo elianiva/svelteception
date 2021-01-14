@@ -80,7 +80,7 @@
 </style>
 
 <div class="exclusive">
-  <img class="exclusive__img" src="{img}" alt="{title}" />
+  <img class="exclusive__img" src={img} alt={title} />
   <div class="exclusive__content">
     <span class="exclusive__title">{title}</span>
     <span class="exclusive__author">{author}</span>

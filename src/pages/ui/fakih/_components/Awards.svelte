@@ -86,7 +86,7 @@
         <br />
         you're at level 80
       </span>
-      <div class="content__bar"></div>
+      <div class="content__bar" />
     </div>
   </div>
 </div>

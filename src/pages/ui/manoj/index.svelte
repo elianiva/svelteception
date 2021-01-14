@@ -141,8 +141,8 @@
   class="body"
   style="background-color: {$isLightMode ? '#e2ddd3' : '#393F46'}"
 >
-  <div class="container" data-theme="{$isLightMode ? 'light' : 'dark'}">
-    <Sidemenu isLight="{isLightMode}" />
+  <div class="container" data-theme={$isLightMode ? "light" : "dark"}>
+    <Sidemenu isLight={isLightMode} />
     <main class="main">
       <nav class="nav">
         <div class="nav__search">
@@ -158,23 +158,29 @@
         shortName="google"
         fullName="Google Inc."
         priority="high"
-        progress="{{ name: 'select progress', color: 'grey' }}"
-        tasks="{[25, 50]}"
+        progress={{ name: "select progress", color: "grey" }}
+        tasks={[25, 50]}
         taskColor="blue"
-        categories="{[{ name: 'ios app', color: 'green' }, { name: 'ui/ux', color: 'blue' }]}"
+        categories={[
+          { name: "ios app", color: "green" },
+          { name: "ui/ux", color: "blue" }
+        ]}
         dueDate="20 June"
-        pos="{['1/2', '2/3']}"
+        pos={["1/2", "2/3"]}
       />
       <CompanyCard
         shortName="slack"
         fullName="Slack corporation"
         priority="medium"
-        progress="{{ name: 'completed', color: 'green' }}"
-        tasks="{[25, 50]}"
+        progress={{ name: "completed", color: "green" }}
+        tasks={[25, 50]}
         taskColor="pink"
-        categories="{[{ name: 'ios app', color: 'green' }, { name: 'android', color: 'yellow' }]}"
+        categories={[
+          { name: "ios app", color: "green" },
+          { name: "android", color: "yellow" }
+        ]}
         dueDate="20 June"
-        pos="{['1/2', '3/4']}"
+        pos={["1/2", "3/4"]}
       />
       <Tasks />
       <Todo />

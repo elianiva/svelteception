@@ -112,7 +112,7 @@
       <span class="people__name">Anika Septimus</span>
     </div>
   </div>
-  <div class="part__slider"></div>
+  <div class="part__slider" />
 </div>
 
 <script>

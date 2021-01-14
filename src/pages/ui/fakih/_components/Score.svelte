@@ -197,7 +197,7 @@
     </div>
   </div>
   <div class="graph__list">
-    <div></div>
+    <div />
     <div class="list__items">
       <span class="list__item">Daily Tasks</span>
       <span class="list__item">Practicum Exams</span>
@@ -208,14 +208,14 @@
     {#each data as { name, heights }}
       <div class="graph__block">
         {#each heights as height}
-          <div class="block__item" style="height: {height * 2}rem;"></div>
+          <div class="block__item" style="height: {height * 2}rem;" />
         {/each}
         <span class="block__label">{name}</span>
       </div>
     {/each}
-    <div class="graph__line"></div>
-    <div class="graph__line"></div>
-    <div class="graph__line"></div>
+    <div class="graph__line" />
+    <div class="graph__line" />
+    <div class="graph__line" />
   </div>
 </div>
 

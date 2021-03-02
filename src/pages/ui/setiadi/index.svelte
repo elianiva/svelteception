@@ -11,7 +11,7 @@
   position: relative;
   box-shadow: 0 0.25rem 2rem rgba(0, 0, 0, 0.1);
   width: 100%;
-  max-width: 1400px;
+  max-width: 1600px;
   max-height: 1200px;
   overflow: hidden;
 }

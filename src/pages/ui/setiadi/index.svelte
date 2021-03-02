@@ -185,7 +185,7 @@
         {/each}
       </Box>
       <Box title="Discuss" row="10/26" col="1/2">
-        {#each discussItems as item, index}
+        {#each discussItems as item}
           <DiscussItem
             src={item.img}
             name={item.name}
@@ -245,7 +245,7 @@
           <SearchIcon width="1rem" height="1rem" />
           <input class="search__input" type="text" placeholder="Search" />
         </div>
-        {#each courseItems as item, index}
+        {#each courseItems as item}
           <CourseItem
             src={item.src}
             title={item.title}

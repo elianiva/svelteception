@@ -15,15 +15,15 @@
 
 :global(body) {
   height: 100%;
-  background-color: #171c26;
+  background-color: #ffffff;
 }
 
 :global(html)::-webkit-scrollbar-thumb {
-  background-color: #3b465a;
+  background-color: #b0b0b0;
 }
 
 :global(html)::-webkit-scrollbar {
-  background-color: #20263a;
+  background-color: #ebebeb;
   width: 0.75rem;
 }
 
@@ -32,7 +32,7 @@
   margin: 0 auto;
   padding: 0 1rem;
   height: 100%;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
 }
 
 .hero {
@@ -41,7 +41,7 @@
   flex-direction: column;
   align-items: center;
   overflow-x: hidden;
-  background-color: #20263a;
+  background-color: #f0f0f0;
   min-height: 32rem;
 }
 
@@ -50,7 +50,7 @@
   margin-top: 4rem;
   font-size: clamp(1rem, calc(2vw + 1.5rem), 3rem);
   line-height: clamp(1.5rem, calc(4vw + 3rem), 8rem);
-  color: #cbccc6;
+  color: #242424;
   font-family: "Major Mono Display", monospace;
   text-transform: uppercase;
   text-shadow: 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.25);
@@ -59,21 +59,21 @@
 }
 
 .purple {
-  color: #d4bfff;
+  color: #7750c9;
   text-decoration: none;
 }
 
 .red {
-  color: #f28779;
+  color: #d05849;
   text-decoration: none;
 }
 
 .yellow {
-  color: #ffd580;
+  color: #f9af56;
 }
 
 .blue {
-  color: #73d0ff;
+  color: #4898ed;
   text-decoration: none;
 }
 
@@ -82,10 +82,10 @@
   z-index: 10;
   overflow-x: auto;
   max-width: 100%;
-  color: #cbccc6;
+  color: #454545;
   font-family: "Iosevka", monospace;
   font-size: 1.25rem;
-  background-color: #101521;
+  background-color: #ffffff;
   padding: 1rem;
   text-transform: lowercase;
   margin: 2rem 0;
@@ -111,9 +111,6 @@
 }
 
 @media only screen and (min-width: 600px) {
-  :global(.content__cards:hover div) {
-    filter: brightness(0.95);
-  }
   .break {
     display: none;
   }
@@ -158,15 +155,8 @@
 <div class="container">
   <section class="content">
     <div class="content__cards">
-      {#each designs as design}
-        <Card
-          title={design.title}
-          type={design.type}
-          path={design.path}
-          designer={design.designer}
-          link={design.link}
-          src={design.src}
-        />
+      {#each designs as { title, type, path, designer, link, src }}
+        <Card {title} {type} {path} {designer} {link} {src} />
       {/each}
     </div>
   </section>

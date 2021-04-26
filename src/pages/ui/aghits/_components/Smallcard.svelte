@@ -32,11 +32,6 @@
   border: none;
   cursor: pointer;
 }
-
-.card__icon img {
-  width: 1.5rem;
-  height: 1.5rem;
-}
 </style>
 
 <div class="card">
@@ -46,14 +41,17 @@
   </div>
   <div class="card__icons">
     <button class="card__icon">
-      <img src="../images/aghits/settings.svg" alt="settings" />
+      <Settings width="24px" height= "24px"/>
     </button>
     <button class="card__icon">
-      <img src="../images/aghits/logout.svg" alt="settings" />
+      <Logout width="24px" height= "24px"/>
     </button>
   </div>
 </div>
 
 <script>
+import Settings from "../icons/settings.svg";
+import Logout from "../icons/logout.svg";
+
 export let username
 </script>

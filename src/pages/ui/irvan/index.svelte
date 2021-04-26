@@ -196,6 +196,9 @@ import ChevronLeft from "./icons/chevron-left.svg"
 import Search from "./icons/search.svg"
 import ExclusiveCard from "./_components/ExclusiveCard.svelte"
 
+import { metatags } from "@roxi/routify"
+metatags.title = "Irvan | Svelteception"
+
 const books = [
   {
     title: "My Own Words",

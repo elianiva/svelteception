@@ -130,6 +130,9 @@ import Search from "./icons/search.svg"
 import Stories from "./_components/Stories.svelte"
 import Card from "./_components/FeedCard.svelte"
 
+import { metatags } from "@roxi/routify"
+metatags.title = "Naufal | Svelteception"
+
 const cards = [
   {
     name: "Lili",

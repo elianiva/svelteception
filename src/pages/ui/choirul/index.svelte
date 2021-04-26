@@ -39,4 +39,8 @@ import LeftNav from "./_components/LeftNav.svelte"
 import RightNav from "./_components/RightNav.svelte"
 import Stories from "./_components/Stories.svelte"
 import Feeds from "./_components/Feeds.svelte"
+
+import { metatags } from "@roxi/routify"
+metatags.title = "Choirul | Svelteception"
+
 </script>

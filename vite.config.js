@@ -19,7 +19,7 @@ const minifyHtml = () => {
   }
 }
 
-const svgPlugin = svelteSVG({ dev })
+const svgPlugin = svelteSVG()
 const origSvgPluginTransform = svgPlugin.transform
 const filter = createFilter()
 svgPlugin.transform = (source, id) => {

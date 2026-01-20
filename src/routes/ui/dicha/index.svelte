@@ -347,7 +347,7 @@
       </div>
       <div class="main__right">
         <img class="main__img" src={images.img} alt="isekai" />
-        <div class="main__border" />
+        <div class="main__border"></div>
       </div>
     </main>
   </div>

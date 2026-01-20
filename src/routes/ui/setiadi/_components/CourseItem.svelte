@@ -53,7 +53,7 @@
     <span
       class="course__progressbar"
       style="width: {width}; background-color: {colour};"
-    />
+    ></span>
   </div>
 </div>
 

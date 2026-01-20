@@ -116,13 +116,11 @@
     <input
       class="toggle__input"
       type="checkbox"
-      aria-hidden="true"
-      on:click={toggleNav}
-      {checked}
+      checked={checked}
     />
-    <div class="toggle__item" aria-hidden="true" />
-    <div class="toggle__item" aria-hidden="true" />
-    <div class="toggle__item" aria-hidden="true" />
+    <div class="toggle__item" aria-hidden="true"></div>
+    <div class="toggle__item" aria-hidden="true"></div>
+    <div class="toggle__item" aria-hidden="true"></div>
   </div>
   <div class="nav__brand">
     <Logo class="brand__logo" />

@@ -74,7 +74,7 @@
       >
       <span class="item__days">{days}</span>
       <div class="item__bar">
-        <div class="bar__filler" style="width: {bar}%" />
+        <div class="bar__filler" style="width: {bar}%"></div>
       </div>
     </div>
   {/each}

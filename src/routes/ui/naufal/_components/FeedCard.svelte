@@ -76,7 +76,13 @@
       <span class="pfp__name">{name}</span>
     </div>
     <div class="detail__right">
-      <div class="detail__likes" on:click={() => (isLiked = !isLiked)}>
+      <div
+        class="detail__likes"
+        role="button"
+        tabindex="0"
+        on:click={() => (isLiked = !isLiked)}
+        on:keydown={(e) => e.key === "Enter" && (isLiked = !isLiked)}
+      >
         {#if isLiked}
           <HeartFilled class="likes__icon" />
         {:else}

@@ -163,7 +163,7 @@
             <div class="header__icon">
               <ChevronRight />
             </div>
-            <div class="header__bar" />
+            <div class="header__bar"></div>
           </div>
         </div>
         <div class="main__books">

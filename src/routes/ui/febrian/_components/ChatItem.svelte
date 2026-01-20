@@ -161,7 +161,7 @@
     {/if}
   </div>
 </div>
-<div class="divider {isChangingDate ? 'date' : ''}" />
+<div class="divider {isChangingDate ? 'date' : ''}"></div>
 
 <script>
 import File from "../icons/file.svg"

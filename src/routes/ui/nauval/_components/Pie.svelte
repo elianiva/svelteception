@@ -134,7 +134,7 @@
   <span class="pie__title">Most Watched Genre</span>
   <div class="pie__content">
     <div class="pie__circle">
-      <div class="pie__circle-middle" />
+      <div class="pie__circle-middle"></div>
     </div>
     <div class="pie__detail">
       <span class="detail__text">Action</span>

@@ -121,7 +121,10 @@
       {#each items as { name, time, isActive }}
         <div
           class="todo__subitem {time[1] ? 'subitem-active' : ''}"
+          role="button"
+          tabindex="0"
           on:click={() => (isActive = !isActive)}
+          on:keydown={(e) => e.key === "Enter" && (isActive = !isActive)}
         >
           <Stopwatch class="stopwatch-icon" />
           <div class="subitem__name">{name}</div>
@@ -135,7 +138,7 @@
               <Play class="icon" />
             {/if}
           </div>
-          <div class="subitem__menu" />
+          <div class="subitem__menu"></div>
         </div>
       {/each}
     </div>

@@ -85,7 +85,7 @@
     {#each bars as { height, label }}
       <div class="bar__item">
         <div class="bar__filler">
-          <div class="bar__filler-colour" style="height: {height}%" />
+          <div class="bar__filler-colour" style="height: {height}%"></div>
         </div>
         <div class="bar__label">{label}</div>
       </div>

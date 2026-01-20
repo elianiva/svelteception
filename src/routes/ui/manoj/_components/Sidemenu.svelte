@@ -62,7 +62,13 @@
 </style>
 
 <aside class="side">
-  <div class="logo" on:click={() => isLight.update(prev => !prev)}>
+  <div
+    class="logo"
+    role="button"
+    tabindex="0"
+    on:click={() => isLight.update(prev => !prev)}
+    on:keydown={(e) => e.key === "Enter" && isLight.update(prev => !prev)}
+  >
     <Logo class="icon" />
   </div>
   <div class="side__menu">

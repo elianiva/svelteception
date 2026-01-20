@@ -1,20 +1,3 @@
-<svelte:head>
-  <title>Home | Svelteception</title>
-  <meta name="description" content="Website to keep all of the result of a small challenge that I did with my friend." />
-  <link
-    rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap"
-  />
-  <link
-    rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-  />
-  <link
-    rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
-  />
-</svelte:head>
-
 <style>
 :global(#routify-app) {
   min-height: 100%;
@@ -134,6 +117,26 @@
 }
 </style>
 
+<svelte:head>
+  <title>Home | Svelteception</title>
+  <meta
+    name="description"
+    content="Website to keep all of the result of a small challenge that I did with my friend."
+  />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap"
+  />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+  />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
+  />
+</svelte:head>
+
 <div class="hero">
   <h1 class="hero__heading">
     S
@@ -145,19 +148,15 @@
     T I O
     <span class="purple">N</span>
   </h1>
-  <pre
-    class="hero__code"><span class="purple">design</span>.<span
-      class="red"
-    >transform(</span><span class="yellow">result</span> ={'>'} <span
-      class="yellow"
-    >result</span>.<span class="blue">code()</span><span
-      class="red"
-    >)</span></pre>
+  <pre class="hero__code"><span class="purple">design</span>.<span class="red"
+      >transform(</span
+    ><span class="yellow">result</span> ={">"} <span class="yellow">result</span
+    >.<span class="blue">code()</span><span class="red">)</span></pre>
 </div>
 <div class="container">
   <section class="content">
     <div class="content__cards">
-      {#each designs as { title, type, path, designer, link, src }}
+      {#each DESIGNS.reverse() as { title, type, path, designer, link, src }}
         <Card {title} {type} {path} {designer} {link} {src} />
       {/each}
     </div>
@@ -169,7 +168,7 @@
 import Card from "./_components/Card.svelte"
 import About from "./_components/About.svelte"
 
-let designs = [
+let DESIGNS = [
   {
     title: "Malam Bujang",
     type: "mobile",

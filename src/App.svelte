@@ -7,7 +7,8 @@
 
 @font-face {
   font-family: SegoeUI;
-  src: local("Segoe UI"),
+  src:
+    local("Segoe UI"),
     url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2)
       format("woff2"),
     url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff)
@@ -20,7 +21,9 @@
 
 <Router {routes} />
 
-<script>
-import { Router } from "@roxi/routify"
-import { routes } from "../.routify/routes.default.js"
+<script context="module">
+import { Router, createRouter } from "@roxi/routify"
+import routes from "../.routify/routes.default.js"
+
+export const router = createRouter({ routes })
 </script>

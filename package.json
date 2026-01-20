@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "dev": "routify -c dev:vite ",
-    "build": "routify -b && vite build",
+    "dev": "vite",
+    "build": "routify build && vite build",
     "dev:vite": "vite",
     "serve": "vite preview",
     "validate": "svelte-check",
@@ -9,6 +9,7 @@
     "lint": "eslint --fix './**/*.svelte'"
   },
   "devDependencies": {
+    "@poppanator/sveltekit-svg": "^6.0.1",
     "@rollup/plugin-image": "^3.0.3",
     "@rollup/pluginutils": "^5.3.0",
     "@roxi/routify": "^3.6.4",
@@ -18,7 +19,6 @@
     "html-minifier": "^4.0.0",
     "prettier": "^3.8.0",
     "prettier-plugin-svelte": "^3.4.1",
-    "rollup-plugin-svelte-svg": "^1.0.0-beta.6",
     "svelte": "^5.47.1",
     "svelte-check": "^4.3.5",
     "vite": "^7.3.1"
